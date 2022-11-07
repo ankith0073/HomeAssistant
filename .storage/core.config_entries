@@ -1,0 +1,502 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "core.config_entries",
+  "data": {
+    "entries": [
+      {
+        "entry_id": "a4c28214ba09f14169d70379ae378532",
+        "version": 1,
+        "domain": "hassio",
+        "title": "Supervisor",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "system",
+        "unique_id": "hassio",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "226e9c3b54a4a48cb2e5705e1d52a749",
+        "version": 1,
+        "domain": "met",
+        "title": "Home",
+        "data": {
+          "track_home": true
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "9f63f6c548c7238394778d1f4850f03e",
+        "version": 1,
+        "domain": "rpi_power",
+        "title": "Raspberry Pi Power Supply Checker",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "e6658c216a787f4a46cedfd5978f877c",
+        "version": 1,
+        "domain": "fritz",
+        "title": "FRITZ!Box 7530 AX",
+        "data": {
+          "host": "192.168.178.1",
+          "password": "Gg_12239196",
+          "port": 49000,
+          "username": "Fritz_grossglockner_barney"
+        },
+        "options": {
+          "consider_home": 60,
+          "old_discovery": false
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ssdp",
+        "unique_id": "123402409-bccb-40e7-8e6c-3C37129789DF",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "7d7ebdb0cf98e6c32531ee9b97555cb9",
+        "version": 1,
+        "domain": "upnp",
+        "title": "FRITZ!Box 7530 AX",
+        "data": {
+          "udn": "uuid:75802409-bccb-40e7-8e6c-3C37129789DF",
+          "st": "urn:schemas-upnp-org:device:InternetGatewayDevice:1",
+          "hostname": "192.168.178.1",
+          "original_udn": "uuid:75802409-bccb-40e7-8e6c-3C37129789DF",
+          "mac_address": "3c:37:12:97:89:df",
+          "location": "http://192.168.178.1:49000/igddesc.xml",
+          "host": "192.168.178.1"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ssdp",
+        "unique_id": "uuid:75802409-bccb-40e7-8e6c-3C37129789DF::urn:schemas-upnp-org:device:InternetGatewayDevice:1",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "b5d3e5309188ab7f3da544f4ff9265fe",
+        "version": 1,
+        "domain": "upnp",
+        "title": "InternetGatewayDeviceV2 - FRITZ!Box 7530 AX",
+        "data": {
+          "udn": "uuid:75802409-bccb-40e7-9f6c-3C37129789DF",
+          "st": "urn:schemas-upnp-org:device:InternetGatewayDevice:2",
+          "hostname": "192.168.178.1",
+          "original_udn": "uuid:75802409-bccb-40e7-9f6c-3C37129789DF",
+          "mac_address": "3c:37:12:97:89:df",
+          "location": "http://192.168.178.1:49000/igd2desc.xml",
+          "host": "192.168.178.1"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ssdp",
+        "unique_id": "uuid:75802409-bccb-40e7-9f6c-3C37129789DF::urn:schemas-upnp-org:device:InternetGatewayDevice:2",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "fb885550b36c5883074791e333da16c1",
+        "version": 1,
+        "domain": "mobile_app",
+        "title": "iPhone Barney ",
+        "data": {
+          "device_id": "CA58349A-2A9F-4A17-A4EA-CC742BD50490",
+          "device_name": "iPhone Barney ",
+          "manufacturer": "Apple",
+          "model": "iPhone12,1",
+          "os_name": "iOS",
+          "supports_encryption": true,
+          "app_id": "io.robbie.HomeAssistant",
+          "app_data": {
+            "push_token": "fQ1FzomEhkOFn6w9dE5wuz:APA91bFWdcgWJ0rjI3eKF32qAoF9CX-suoT-ChoM2YdH2n-H2ZH9fITN9vXeLmWLIraA0a-IIcwUsH-oqNx7ftj3otbasFVePcHWZpRNeC4FRySPFY5ZrvxEX-JnZnvl6-zX05fxuh-n",
+            "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification"
+          },
+          "app_version": "2022.10.1 (2022.424)",
+          "app_name": "Home Assistant",
+          "os_version": "16.0.2",
+          "webhook_id": "940304bd65271a464fa6a2a9baef1fc7815584b1c364b0c5f76237959cef356d",
+          "secret": "4021e28bea4ad2603da6a7794bf7d1947c59573b05e11ede5e60107fa57b8e11",
+          "user_id": "2f47898796894fa7a4e6bd35f7671fa2",
+          "no_legacy_encryption": true
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "registration",
+        "unique_id": "io.robbie.HomeAssistant-CA58349A-2A9F-4A17-A4EA-CC742BD50490",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "c94b4ae44a7ba662123ba9eefbb7699d",
+        "version": 1,
+        "domain": "mobile_app",
+        "title": "Ipad Barney",
+        "data": {
+          "app_data": {
+            "push_token": "ftc5iirw7ULWjugxuBmEvr:APA91bEPjOw2lMPQRsBnI30iETGeOMLYkNoWTCsnDJa4r9LUJ_z5-Uw33REUP2jAGJHYnlpgZMlE7KEkkKClypC45f55tajBElSKQpH_xin69pHG0pKP0LgEerYg3zxpSgwtgp6N82sN",
+            "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification"
+          },
+          "app_version": "2022.8 (2022.387)",
+          "manufacturer": "Apple",
+          "app_id": "io.robbie.HomeAssistant",
+          "app_name": "Home Assistant",
+          "device_name": "Ipad Barney",
+          "device_id": "0E731117-6D89-4451-B7B1-1F05D9781595",
+          "os_version": "15.6",
+          "supports_encryption": true,
+          "model": "iPad13,4",
+          "os_name": "iPadOS",
+          "webhook_id": "c7ed4faa681234c707832f4f66db08cf0e34a247a113660b569e608ce29c4e4a",
+          "secret": "916d275717889ffad44daa77c763b1b17f2e3738e78b9546979805e498879cd8",
+          "user_id": "2f47898796894fa7a4e6bd35f7671fa2",
+          "no_legacy_encryption": true
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "registration",
+        "unique_id": "io.robbie.HomeAssistant-0E731117-6D89-4451-B7B1-1F05D9781595",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "7f353f5fd3240a0cefb065cf87968db4",
+        "version": 1,
+        "domain": "flux_led",
+        "title": "Controller RGB IR FDB53B",
+        "data": {
+          "host": "192.168.178.38",
+          "remote_access_enabled": false,
+          "minor_version": 55,
+          "model": "AK001-ZJ210",
+          "model_num": 51,
+          "model_info": "IR",
+          "model_description": "Controller RGB IR"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": "dc:4f:22:fd:b5:3b",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "1c80bcf959e08fcb477ab36553eee78f",
+        "version": 1,
+        "domain": "adguard",
+        "title": "AdGuard Home",
+        "data": {
+          "host": "127.0.0.1",
+          "port": 45158,
+          "password": null,
+          "ssl": false,
+          "username": null,
+          "verify_ssl": true
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "hassio",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "555b292528514a5f45117df69cfe23b6",
+        "version": 1,
+        "domain": "fritzbox",
+        "title": "FRITZ!Box 7530 AX",
+        "data": {
+          "host": "192.168.178.1",
+          "password": "Gg_12239196",
+          "username": "Fritz_grossglockner_barney"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ssdp",
+        "unique_id": "123402409-bccb-40e7-8e6c-3C37129789DF",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "cb6970c93d084d3d7a7a18928f341fca",
+        "version": 1,
+        "domain": "fritz",
+        "title": "FRITZ!Repeater 1200 AX",
+        "data": {
+          "host": "192.168.178.29",
+          "password": "Gg_12239196",
+          "port": 49000,
+          "username": "Fritz_grossglockner_barney"
+        },
+        "options": {
+          "consider_home": 60,
+          "old_discovery": false
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ssdp",
+        "unique_id": "123402409-bccb-40e7-8e6c-3C3712CF94C1",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "059a7832e825327dd6bc9197bb60ae5c",
+        "version": 1,
+        "domain": "deconz",
+        "title": "00212E05E621",
+        "data": {
+          "host": "172.30.33.2",
+          "port": 40850,
+          "api_key": "C230E27A79"
+        },
+        "options": {
+          "master": true,
+          "allow_clip_sensor": true,
+          "allow_deconz_groups": true,
+          "allow_new_devices": true
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "e4ad08aa02d2ad919e3ab2bb2768142a",
+        "version": 1,
+        "domain": "sun",
+        "title": "Sun",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "import",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "a3fd2c1a20d84df166bab5f0587c54e2",
+        "version": 1,
+        "domain": "bluetooth",
+        "title": "DC:A6:32:AF:44:AB",
+        "data": {},
+        "options": {
+          "adapter": "hci0"
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "integration_discovery",
+        "unique_id": "DC:A6:32:AF:44:AB",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "866cc135560e6af439e03ccd0b94c09a",
+        "version": 1,
+        "domain": "sonos",
+        "title": "Sonos",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "zeroconf",
+        "unique_id": "sonos",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "ec3c0dd97301778b9edc78afbc8e4e30",
+        "version": 1,
+        "domain": "dlna_dms",
+        "title": "AVM FRITZ!Mediaserver",
+        "data": {
+          "url": "http://192.168.178.1:49000/MediaServerDevDesc.xml",
+          "device_id": "uuid:fa095ecc-e13e-40e7-8e6c-3c37129789df::urn:schemas-upnp-org:device:MediaServer:1",
+          "source_id": "avm_fritz_mediaserver"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ssdp",
+        "unique_id": "uuid:fa095ecc-e13e-40e7-8e6c-3c37129789df::urn:schemas-upnp-org:device:MediaServer:1",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "5ecf063e746280f80e124d888cc94516",
+        "version": 2,
+        "domain": "samsungtv",
+        "title": "living_room_tv",
+        "data": {
+          "host": "192.168.178.47",
+          "mac": "fc:03:9f:cf:ca:91",
+          "manufacturer": "Samsung",
+          "method": "websocket",
+          "model": "UE55NU7179",
+          "name": "Samsung 7 Series (55)",
+          "port": 8002,
+          "ssdp_rendering_control_location": "http://192.168.178.47:9197/dmr",
+          "ssdp_main_tv_agent_location": null,
+          "token": "16626033"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": "3b71df29-c6f5-4bc2-8b3f-a30f3e408ee4",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "2d04b294606fd1392868f574fd06c924",
+        "version": 1,
+        "domain": "speedtestdotnet",
+        "title": "SpeedTest",
+        "data": {},
+        "options": {
+          "server_name": "*Auto Detect",
+          "scan_interval": 60,
+          "manual": false,
+          "server_id": null
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "3ab254f579fdc1d951562f6cd177fdef",
+        "version": 1,
+        "domain": "icloud",
+        "title": "Ankith0073@gmail.com",
+        "data": {
+          "username": "Ankith0073@gmail.com",
+          "password": "!Il^8432!961",
+          "with_family": false,
+          "max_interval": 30,
+          "gps_accuracy_threshold": 500
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "reauth",
+        "unique_id": "Ankith0073@gmail.com",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "bdd10cf2c800875dd8c6b968b24584d0",
+        "version": 1,
+        "domain": "spotify",
+        "title": "Spotify",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ignore",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "f226247884584873b3d86ec576f8bc83",
+        "version": 1,
+        "domain": "dlna_dmr",
+        "title": "[TV] Samsung 7 Series (55)",
+        "data": {
+          "url": "http://192.168.178.47:9197/dmr"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ignore",
+        "unique_id": "uuid:6716602c-9ca3-421e-9c2e-1c306cf89486",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "e5979139026ee9be89c0e5993646231e",
+        "version": 1,
+        "domain": "fully_kiosk",
+        "title": "Fire Tablet",
+        "data": {
+          "host": "192.168.178.24",
+          "password": "W63r6S!$s",
+          "mac": "74:d4:23:07:bb:c7"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": "46d2f1e7-1a734057",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "6dd6e8493978b11bbc10762add6fccf3",
+        "version": 1,
+        "domain": "hacs",
+        "title": "",
+        "data": {
+          "token": "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"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "4bc69e05cff0c5e32b3cc9653e2c2ab7",
+        "version": 1,
+        "domain": "ios",
+        "title": "Home Assistant iOS",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": "ios",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "76f988fce3469f63f123537b72e26164",
+        "version": 1,
+        "domain": "mobile_app",
+        "title": "iPhone",
+        "data": {
+          "app_name": "Home Assistant",
+          "manufacturer": "Apple",
+          "app_version": "2022.10.1 (2022.424)",
+          "os_version": "16.1",
+          "device_name": "iPhone",
+          "device_id": "8BF1EC96-3544-4236-9F85-015D7ABA238D",
+          "os_name": "iOS",
+          "supports_encryption": true,
+          "app_data": {
+            "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification",
+            "push_token": "fVxPuoym706AmEppssqLZd:APA91bHn8iJyj-zQIUfzpDztECvqI7xoZgAww7baj_VIYDGZ_vGKORUxJ1GMwNoSazX01Hbm93mQ92rfKYKGBPU1Dl9u284WYHisacCBnZWB7HxvOmIEPg6BAJJwUAQ9x7Ug5Wl2ODtd"
+          },
+          "model": "iPhone13,1",
+          "app_id": "io.robbie.HomeAssistant",
+          "webhook_id": "34480b2e5adaece3c608087ffc146778cff2d3d78b420745914b5d6fcc996d26",
+          "secret": "a2c3c601dd626e73864ab984807de518cc6f52ac378014f9746857c65ff05943",
+          "user_id": "e97cbdcdfaab457abdd3ce3fab83f22f",
+          "no_legacy_encryption": true
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "registration",
+        "unique_id": "io.robbie.HomeAssistant-8BF1EC96-3544-4236-9F85-015D7ABA238D",
+        "disabled_by": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,268 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "lovelace",
+  "data": {
+    "config": {
+      "background": "var(--background-image)",
+      "title": "Barney Home Automation",
+      "views": [
+        {
+          "theme": "ios-dark-mode-light-blue-alternative",
+          "path": "default_view",
+          "title": "Living room",
+          "icon": "mdi:sofa-outline",
+          "badges": [],
+          "cards": [
+            {
+              "type": "media-control",
+              "entity": "media_player.samsung_7_series_55"
+            },
+            {
+              "type": "entities",
+              "entities": [
+                {
+                  "entity": "light.retro_light_1",
+                  "secondary_info": "brightness",
+                  "name": "Light 1"
+                },
+                {
+                  "entity": "light.retro_light_2",
+                  "secondary_info": "brightness",
+                  "name": "Light 2"
+                },
+                {
+                  "entity": "light.retro_light_3",
+                  "secondary_info": "brightness",
+                  "name": "Light 3"
+                }
+              ],
+              "title": "Retro lights",
+              "state_color": true,
+              "show_header_toggle": true,
+              "header": {
+                "type": "buttons",
+                "entities": []
+              },
+              "footer": {
+                "type": "buttons",
+                "entities": []
+              }
+            },
+            {
+              "type": "weather-forecast",
+              "entity": "weather.barney_home_automation"
+            },
+            {
+              "type": "media-control",
+              "entity": "media_player.sonos_living_room"
+            },
+            {
+              "type": "iframe",
+              "url": "https://192.168.178.40:8183/api/hassio_ingress/IW-GjNmq8GCHUC7shR4wn0KxqBT1idsuKLigdc_e8Dc/d-solo/aV5Xydmgz/temperature-monitoring?orgId=1&refresh=5s&panelId=4",
+              "aspect_ratio": "50%"
+            },
+            {
+              "type": "entities",
+              "entities": [
+                {
+                  "entity": "sensor.restmuell_waste",
+                  "name": "Restmüll"
+                },
+                {
+                  "entity": "sensor.paper_waste",
+                  "name": "Papier",
+                  "icon": "mdi:recycle-variant"
+                },
+                {
+                  "entity": "sensor.bio_waste",
+                  "name": "Bio",
+                  "icon": "mdi:bio"
+                }
+              ],
+              "title": "Abfall termine"
+            },
+            {
+              "show_name": true,
+              "show_icon": true,
+              "type": "button",
+              "tap_action": {
+                "action": "call-service",
+                "service": "light.toggle",
+                "data": {
+                  "transition": 5,
+                  "brightness": 5
+                },
+                "target": {
+                  "entity_id": [
+                    "light.retro_light_2",
+                    "light.retro_light_1",
+                    "light.retro_light_3"
+                  ]
+                }
+              },
+              "icon": "mdi:movie-open-cog-outline",
+              "name": "Movie mode",
+              "theme": "ios-dark-mode-light-blue-alternative"
+            }
+          ]
+        },
+        {
+          "theme": "ios-dark-mode-light-blue-alternative",
+          "title": "Work room",
+          "icon": "mdi:desktop-classic",
+          "badges": [],
+          "cards": [
+            {
+              "type": "entities",
+              "entities": [
+                "light.controller_rgb_ir_fdb53b",
+                {
+                  "entity": "number.controller_rgb_ir_fdb53b_effect_speed",
+                  "name": "Effect Speed"
+                }
+              ],
+              "title": "Controller RGB IR FDB53B"
+            },
+            {
+              "type": "iframe",
+              "url": "https://192.168.178.40:8183/api/hassio_ingress/IW-GjNmq8GCHUC7shR4wn0KxqBT1idsuKLigdc_e8Dc/d-solo/wTb_jUzRz/power-consumption?orgId=1&from=1665203257174&to=1665224857174&panelId=2",
+              "aspect_ratio": "50%",
+              "title": "WFH Power Consumption"
+            },
+            {
+              "type": "entities",
+              "entities": [
+                "switch.smart_plug_7"
+              ],
+              "title": "Smart plug 8"
+            },
+            {
+              "type": "entities",
+              "entities": [
+                {
+                  "entity": "binary_sensor.work_room_motion_sensor",
+                  "name": "Motion detected"
+                },
+                {
+                  "entity": "sensor.work_room_motion_sensor_temperature"
+                },
+                {
+                  "entity": "sensor.work_room_motion_sensor_battery"
+                }
+              ]
+            },
+            {
+              "type": "iframe",
+              "url": "https://192.168.178.40:8183/api/hassio_ingress/IW-GjNmq8GCHUC7shR4wn0KxqBT1idsuKLigdc_e8Dc/d-solo/SRNT0jmRz/internet-speedtest?orgId=1&panelId=2",
+              "aspect_ratio": "100%"
+            },
+            {
+              "hours_to_show": 36,
+              "graph": "line",
+              "type": "sensor",
+              "entity": "sensor.temperature_19",
+              "detail": 2,
+              "name": "Temperature ",
+              "unit": "Celsius ",
+              "theme": "ios-dark-mode-light-blue"
+            }
+          ]
+        },
+        {
+          "theme": "ios-dark-mode-light-blue-alternative",
+          "title": "Kitchen ",
+          "path": "kitchen",
+          "icon": "mdi:countertop-outline",
+          "badges": [],
+          "cards": [
+            {
+              "type": "entities",
+              "entities": [
+                "binary_sensor.kitchen_window",
+                {
+                  "entity": "sensor.kitchen_window_temperature",
+                  "name": "Temperature"
+                }
+              ],
+              "title": "Kitchen_window"
+            }
+          ]
+        },
+        {
+          "theme": "ios-dark-mode-light-blue-alternative",
+          "title": "Bedroom",
+          "path": "bedroom",
+          "icon": "mdi:bed-double-outline",
+          "badges": [],
+          "cards": [
+            {
+              "type": "entities",
+              "entities": [
+                "light.bedroom_lamp"
+              ],
+              "title": "bedroom_lamp"
+            },
+            {
+              "type": "entities",
+              "entities": [
+                {
+                  "entity": "binary_sensor.bedroom_motion_sensor"
+                },
+                {
+                  "entity": "sensor.bedroom_motion_sensor_temperature"
+                },
+                {
+                  "entity": "sensor.bedroom_motion_sensor_battery"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "theme": "ios-dark-mode-light-blue-alternative",
+          "title": "HA health",
+          "icon": "mdi:set-none",
+          "badges": [],
+          "cards": [
+            {
+              "type": "entities",
+              "entities": [
+                "binary_sensor.fritz_box_7530_ax_wan_status",
+                "binary_sensor.rpi_power_status",
+                "binary_sensor.updater"
+              ],
+              "title": "Binary sensor"
+            },
+            {
+              "type": "entities",
+              "entities": [
+                {
+                  "entity": "sensor.work_room_motion_sensor_battery",
+                  "icon": "mdi:battery-outline",
+                  "name": "Work room motion sensor"
+                },
+                {
+                  "entity": "sensor.bedroom_motion_sensor_battery",
+                  "name": "Bedroom motion sensor",
+                  "icon": "mdi:battery-outline"
+                },
+                {
+                  "entity": "sensor.humidity_10_battery",
+                  "name": "Livingroom humidity sensor",
+                  "icon": "mdi:battery-outline"
+                },
+                {
+                  "entity": "sensor.kitchen_window_battery",
+                  "name": "Kitchen window sensor",
+                  "icon": "mdi:battery-outline"
+                }
+              ],
+              "title": "Sensors battery levels "
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

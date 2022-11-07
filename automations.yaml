@@ -1,0 +1,288 @@
+- id: '1644953565537'
+  alias: Turn on Bedroom lamp at 21.45
+  description: ''
+  trigger:
+  - platform: time
+    at: '21:45:00'
+  condition: []
+  action:
+  - service: light.turn_on
+    data:
+      brightness_pct: 2
+    target:
+      entity_id: light.bedroom_lamp
+  mode: single
+- id: '1644953760115'
+  alias: Turn off Bedroom Lamp at 01:00am
+  description: ''
+  trigger:
+  - platform: time
+    at: 01:00:00
+  condition: []
+  action:
+  - service: light.turn_off
+    data:
+      transition: 5
+    target:
+      entity_id: light.bedroom_lamp
+  mode: single
+- id: '1646168522631'
+  alias: Workroom LEd on evenings
+  description: 'Turn On work room LEDs during evenings '
+  trigger:
+  - platform: state
+    entity_id: binary_sensor.work_room_motion_sensor
+    to: 'on'
+    from: 'off'
+  condition:
+  - condition: sun
+    after: sunset
+  - condition: time
+    before: '23:00:00'
+    after: 00:00:00
+  action:
+  - service: light.turn_on
+    data:
+      brightness_pct: 40
+    target:
+      device_id: dcfe909dac8daef340f5343362783c07
+      entity_id: light.controller_rgb_ir_fdb53b
+      area_id: workroom
+  mode: single
+- id: '1646169708365'
+  alias: Humidifier On at 18.00
+  description: Turn on humidifier at 18.00 hrs
+  trigger:
+  - platform: time
+    at: '18:00:00'
+  condition: []
+  action:
+  - service: switch.turn_on
+    data: {}
+    target:
+      device_id: 3e6c9155235d8973430134b75e5902d9
+      entity_id: switch.humidifier_plug_on_off
+      area_id: living_room
+  mode: single
+- id: '1646169801609'
+  alias: 'Humidifier off at 20.00 '
+  description: ''
+  trigger:
+  - platform: time
+    at: '20:00:00'
+  condition: []
+  action:
+  - service: switch.turn_off
+    data: {}
+    target:
+      device_id: 3e6c9155235d8973430134b75e5902d9
+      entity_id: switch.humidifier_plug_on_off
+      area_id: living_room
+  mode: single
+- id: '1646254135317'
+  alias: 'workroom LED turn off '
+  description: ''
+  trigger:
+  - platform: state
+    entity_id: binary_sensor.work_room_sensor_ias_zone
+    from: 'on'
+    to: 'off'
+  condition:
+  - condition: sun
+    after: sunset
+  - condition: time
+    before: '23:00:00'
+  action:
+  - service: light.turn_off
+    data: {}
+    target:
+      entity_id: light.controller_rgb_ir_fdb53b
+      device_id: dcfe909dac8daef340f5343362783c07
+      area_id: workroom
+  mode: single
+- id: '1646254231591'
+  alias: 'workroom LED strip off '
+  description: ''
+  trigger:
+  - platform: state
+    entity_id: binary_sensor.work_room_motion_sensor
+    from: 'on'
+    to: 'off'
+  condition:
+  - condition: sun
+    after: sunset
+  - condition: time
+    before: '23:00:00'
+    after: 00:00:00
+  action:
+  - service: light.turn_off
+    data: {}
+    target:
+      area_id: workroom
+      device_id: dcfe909dac8daef340f5343362783c07
+      entity_id: light.controller_rgb_ir_fdb53b
+  mode: single
+- id: '1646851942697'
+  alias: 'turn on bed room light movement detected '
+  description: ''
+  trigger:
+  - platform: state
+    from: 'off'
+    to: 'on'
+    entity_id: binary_sensor.bedroom_motion_sensor
+  condition:
+  - condition: time
+    before: '21:45:00'
+    after: 00:00:00
+  - condition: sun
+    after: sunset
+  action:
+  - service: light.turn_on
+    data:
+      brightness_pct: 70
+    target:
+      entity_id: light.bedroom_lamp
+  mode: single
+- id: '1646852041780'
+  alias: 'turn off bedroom light when no movment '
+  description: ''
+  trigger:
+  - platform: state
+    entity_id: binary_sensor.bedroom_motion_sensor
+    from: 'on'
+    to: 'off'
+  condition:
+  - condition: sun
+    after: sunset
+  - condition: time
+    before: '21:45:00'
+    after: 00:00:00
+  action:
+  - service: light.turn_off
+    data: {}
+    target:
+      entity_id: light.bedroom_lamp
+  mode: single
+- id: '1648448638172'
+  alias: 'Turn off retro lights at 23.00 if they are on '
+  description: ''
+  trigger:
+  - platform: time
+    at: '23:00:00'
+  condition:
+  - condition: device
+    type: is_on
+    device_id: d5c0299b4cb62272854d7ac1d701a509
+    entity_id: light.retro_light_1
+    domain: light
+  - condition: device
+    type: is_on
+    device_id: 9983a6fd6fe15d2262204595872cc6a2
+    entity_id: light.retro_light_2
+    domain: light
+  - condition: device
+    type: is_on
+    device_id: fd8611212158e0e2aaa73cc56135e534
+    entity_id: light.retro_light_3
+    domain: light
+  action:
+  - type: turn_off
+    device_id: d5c0299b4cb62272854d7ac1d701a509
+    entity_id: light.retro_light_1
+    domain: light
+  - type: turn_off
+    device_id: 9983a6fd6fe15d2262204595872cc6a2
+    entity_id: light.retro_light_2
+    domain: light
+  - type: turn_off
+    device_id: fd8611212158e0e2aaa73cc56135e534
+    entity_id: light.retro_light_3
+    domain: light
+  mode: single
+- id: '1648576094911'
+  alias: 'Retro lights evening '
+  description: ''
+  trigger:
+  - platform: sun
+    event: sunset
+    offset: 0
+  condition: []
+  action:
+  - service: light.turn_on
+    data:
+      color_temp: 410
+      brightness: 35
+    target:
+      entity_id:
+      - light.retro_light_1
+      - light.retro_light_2
+      - light.retro_light_3
+  mode: single
+- id: '1662289656428'
+  alias: 'Sonos Snapshot when TV turns on '
+  description: ''
+  trigger:
+  - platform: device
+    device_id: 4b59e3e7d453fef4ebfe44d5d32e5491
+    domain: media_player
+    entity_id: media_player.samsung_7_series_55
+    type: turned_on
+    for:
+      hours: 0
+      minutes: 0
+      seconds: 0
+  condition: []
+  action:
+  - service: sonos.snapshot
+    data:
+      entity_id: media_player.sonos_living_room
+  - service: media_player.media_pause
+    data: {}
+    target:
+      device_id: 30c7714be6780e7e3ed99669df94033d
+  mode: single
+- id: '1662289737477'
+  alias: Sonos restore snapshot when TV turns off
+  description: ''
+  trigger:
+  - platform: device
+    device_id: 4b59e3e7d453fef4ebfe44d5d32e5491
+    domain: media_player
+    entity_id: media_player.samsung_7_series_55
+    type: turned_off
+    for:
+      hours: 0
+      minutes: 0
+      seconds: 0
+  condition: []
+  action:
+  - service: sonos.restore
+    data:
+      entity_id: media_player.sonos_living_room
+  mode: single
+- id: '1662497140735'
+  alias: 'Sonos music from 18.00 hrs '
+  description: ''
+  trigger:
+  - platform: time
+    at: '18:00:00'
+  condition: []
+  action:
+  - service: media_player.media_play
+    data: {}
+    target:
+      device_id: 30c7714be6780e7e3ed99669df94033d
+  mode: single
+- id: '1662497246842'
+  alias: 'Sonos stop playing at 23.00 hrs '
+  description: ''
+  trigger:
+  - platform: time
+    at: '23:00:00'
+  condition: []
+  action:
+  - service: media_player.media_pause
+    data: {}
+    target:
+      device_id: 30c7714be6780e7e3ed99669df94033d
+  mode: single

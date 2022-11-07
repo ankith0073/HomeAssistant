@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "auth_provider.homeassistant",
+  "data": {
+    "users": [
+      {
+        "username": "barneyha",
+        "password": "JDJiJDEyJC9TWVVTN1VCWml5V05UOVJnejlVQk9GRFN6TzNWYUJoWTlJNXdaQUcvc0RwaWE5U00uWDV5"
+      },
+      {
+        "username": "barneykioskview",
+        "password": "JDJiJDEyJFNFQzFWdWNVWWJ5SkRQNFlNZ1ZOLnVpR1ljYzRKQzNISmdGT1ZwOHhPVlNZYjhJOWxucHpD"
+      }
+    ]
+  }
+}

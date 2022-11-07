@@ -1,0 +1,44 @@
+2022-11-07 19:52:11.979 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration waste_collection_schedule which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2022-11-07 19:52:11.982 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration hacs which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2022-11-07 19:52:51.680 WARNING (Recorder) [homeassistant.components.recorder.util] The system could not validate that the sqlite3 database at //config/home-assistant_v2.db was shutdown cleanly
+2022-11-07 19:53:31.979 WARNING (MainThread) [homeassistant.setup] Setup of recorder is taking over 10 seconds.
+2022-11-07 19:53:32.003 WARNING (Recorder) [homeassistant.components.recorder.util] Ended unfinished session (id=80 from 2022-11-07 18:02:19.591730)
+2022-11-07 19:53:36.084 WARNING (MainThread) [homeassistant.components.http.ban] Login attempt or request with invalid authentication from supervisor (172.30.32.2). Requested URL: '/api/config'. (HomeAssistantSupervisor/2022.10.2 aiohttp/3.8.3 Python/3.10)
+2022-11-07 19:53:49.141 WARNING (MainThread) [homeassistant.setup] Setup of hassio is taking over 10 seconds.
+2022-11-07 19:54:14.262 ERROR (SyncWorker_7) [homeassistant.components.influxdb] Cannot connect to InfluxDB due to '('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))'. Please check that the provided connection details (host, port, etc.) are correct and that your InfluxDB server is running and accessible. Retrying in 60 seconds.
+2022-11-07 19:54:14.394 WARNING (MainThread) [homeassistant.setup] Setup of flux_led is taking over 10 seconds.
+2022-11-07 19:54:14.397 WARNING (MainThread) [homeassistant.components.sensor] Setup of sensor platform adguard is taking over 10 seconds.
+2022-11-07 19:54:14.413 WARNING (MainThread) [homeassistant.setup] Setup of automation is taking over 10 seconds.
+2022-11-07 19:54:29.229 WARNING (MainThread) [homeassistant.components.switch] Setup of switch platform adguard is taking over 10 seconds.
+2022-11-07 19:54:29.294 WARNING (MainThread) [homeassistant.config_entries] Config entry 'Controller RGB IR FDB53B' for flux_led integration not ready yet: Timed out trying to connect to 192.168.178.38; Retrying in background
+2022-11-07 19:54:35.972 ERROR (SyncWorker_0) [pyicloud.base] Authentication required for Account. (421)
+2022-11-07 19:54:38.667 INFO (SyncWorker_5) [fritzconnection] Unable to retrieve resource 'http://192.168.178.29:49000/igddesc.xml' from the device.
+2022-11-07 19:54:38.719 ERROR (SyncWorker_0) [homeassistant.components.icloud.account] Your password for 'Ankith0073@gmail.com' is no longer working; Go to the Integrations menu and click on Configure on the discovered Apple iCloud card to login again
+2022-11-07 19:54:42.764 WARNING (MainThread) [homeassistant.components.media_player] Setup of media_player platform samsungtv is taking over 10 seconds.
+2022-11-07 19:55:14.282 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/components/sonos/__init__.py", line 310, in _async_handle_discovery_message
+    await self.hass.async_add_executor_job(
+asyncio.exceptions.TimeoutError
+2022-11-07 19:55:14.808 ERROR (SyncWorker_6) [homeassistant.components.influxdb] Cannot connect to InfluxDB due to '('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))'. Please check that the provided connection details (host, port, etc.) are correct and that your InfluxDB server is running and accessible. Retrying in 60 seconds.
+2022-11-07 20:01:07.518 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities media_player.sonos_living_room or it is/they are currently not available
+2022-11-07 20:01:07.570 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities media_player.sonos_living_room or it is/they are currently not available
+2022-11-07 20:04:36.002 ERROR (MainThread) [homeassistant.components.flux_led.coordinator] Error fetching 192.168.178.38 data: 192.168.178.38: Bulb stopped responding
+2022-11-07 20:05:56.001 ERROR (MainThread) [homeassistant.components.flux_led.coordinator] Error fetching 192.168.178.38 data: 192.168.178.38: Bulb stopped responding
+2022-11-07 20:14:34.288 ERROR (MainThread) [homeassistant.components.hassio.handler] Timeout on /host/info request
+2022-11-07 20:14:35.033 ERROR (MainThread) [homeassistant.components.hassio.handler] Timeout on /ingress/validate_session request
+2022-11-07 20:14:35.074 ERROR (MainThread) [homeassistant.components.hassio] Failed to to call /ingress/validate_session - 
+2022-11-07 20:14:35.100 ERROR (MainThread) [homeassistant.components.hassio.handler] Timeout on /os/info request
+2022-11-07 20:14:35.102 ERROR (MainThread) [homeassistant.components.hassio.handler] Timeout on /store request
+2022-11-07 20:14:35.104 ERROR (MainThread) [homeassistant.components.hassio.handler] Timeout on /core/info request
+2022-11-07 20:14:35.105 ERROR (MainThread) [homeassistant.components.hassio.handler] Timeout on /supervisor/info request
+2022-11-07 20:14:35.107 ERROR (MainThread) [homeassistant.components.hassio.handler] Timeout on /info request
+2022-11-07 20:14:35.109 ERROR (MainThread) [homeassistant.components.hassio.handler] Timeout on /ingress/validate_session request
+2022-11-07 20:14:35.110 ERROR (MainThread) [homeassistant.components.hassio] Failed to to call /ingress/validate_session - 
+2022-11-07 20:14:35.111 ERROR (MainThread) [homeassistant.components.hassio.handler] Timeout on /ingress/validate_session request
+2022-11-07 20:14:35.112 ERROR (MainThread) [homeassistant.components.hassio] Failed to to call /ingress/validate_session - 
+2022-11-07 20:14:35.182 WARNING (MainThread) [homeassistant.components.hassio] Can't read Supervisor data: 
+2022-11-07 20:17:34.002 ERROR (MainThread) [homeassistant.components.flux_led.coordinator] Error fetching 192.168.178.38 data: 192.168.178.38: Bulb stopped responding
+2022-11-07 20:19:04.002 ERROR (MainThread) [homeassistant.components.flux_led.coordinator] Error fetching 192.168.178.38 data: 192.168.178.38: Bulb stopped responding
+2022-11-07 20:30:40.001 ERROR (MainThread) [homeassistant.components.flux_led.coordinator] Error fetching 192.168.178.38 data: 192.168.178.38: Bulb stopped responding
+2022-11-07 20:32:43.001 ERROR (MainThread) [homeassistant.components.flux_led.coordinator] Error fetching 192.168.178.38 data: 192.168.178.38: Bulb stopped responding

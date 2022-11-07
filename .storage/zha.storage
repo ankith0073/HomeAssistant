@@ -1,0 +1,54 @@
+{
+    "version": 1,
+    "minor_version": 1,
+    "key": "zha.storage",
+    "data": {
+        "devices": [
+            {
+                "name": "dresden elektronik ConBee II",
+                "ieee": "00:21:2e:ff:ff:05:e6:21",
+                "last_seen": 1647455187.1815805
+            },
+            {
+                "name": "LUMI lumi.plug.mmeu01",
+                "ieee": "04:cf:8c:df:3c:77:72:33",
+                "last_seen": 1646170371.6344986
+            },
+            {
+                "name": "OSRAM Classic A60 W clear - LIGHTIFY",
+                "ieee": "7c:b0:3e:aa:0a:04:11:58",
+                "last_seen": 1647452682.3611524
+            },
+            {
+                "name": "LUMI lumi.sensor_magnet.aq2",
+                "ieee": "00:15:8d:00:04:aa:f0:1e",
+                "last_seen": 1647452940.2192008
+            },
+            {
+                "name": "unk_manufacturer unk_model",
+                "ieee": "00:15:8d:00:05:4d:ed:59",
+                "last_seen": 1647454611.3511941
+            },
+            {
+                "name": "LUMI lumi.sensor_motion.aq2",
+                "ieee": "00:15:8d:00:01:e4:ae:ba",
+                "last_seen": 1647452612.2163186
+            },
+            {
+                "name": "OSRAM Plug 01",
+                "ieee": "7c:b0:3e:aa:0a:08:91:bf",
+                "last_seen": 1647455136.0930448
+            },
+            {
+                "name": "ZigBee/CCT CCT Light",
+                "ieee": "00:15:8d:00:01:27:11:7b",
+                "last_seen": 1647455167.6964185
+            },
+            {
+                "name": "ZigBee/CCT CCT Light",
+                "ieee": "00:15:8d:00:01:3b:07:eb",
+                "last_seen": 1647455176.0263817
+            }
+        ]
+    }
+}

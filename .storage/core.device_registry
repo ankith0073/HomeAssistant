@@ -1,0 +1,3103 @@
+{
+  "version": 1,
+  "minor_version": 3,
+  "key": "core.device_registry",
+  "data": {
+    "devices": [
+      {
+        "config_entries": [
+          "226e9c3b54a4a48cb2e5705e1d52a749"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "met"
+          ]
+        ],
+        "manufacturer": "Met.no",
+        "model": "Forecast",
+        "name": "Forecast",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": "service",
+        "id": "dfd2cd0953c7121a30969417910562f5",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "https://www.met.no/en"
+      },
+      {
+        "config_entries": [
+          "b5d3e5309188ab7f3da544f4ff9265fe",
+          "7d7ebdb0cf98e6c32531ee9b97555cb9",
+          "e6658c216a787f4a46cedfd5978f877c"
+        ],
+        "connections": [
+          [
+            "mac",
+            "3c:37:12:97:89:df"
+          ]
+        ],
+        "identifiers": [
+          [
+            "fritz",
+            "3C37129789DF"
+          ],
+          [
+            "upnp",
+            "uuid:75802409-bccb-40e7-9f6c-3C37129789DF::urn:schemas-upnp-org:device:InternetGatewayDevice:2"
+          ]
+        ],
+        "manufacturer": "AVM",
+        "model": "FRITZ!Box 7530 AX",
+        "name": "FRITZ!Box 7530 AX",
+        "sw_version": "256.07.31",
+        "hw_version": null,
+        "entry_type": null,
+        "id": "ae5567bf3b433a67e32915e47dd5d164",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "http://192.168.178.1"
+      },
+      {
+        "config_entries": [
+          "5ecf063e746280f80e124d888cc94516",
+          "e6658c216a787f4a46cedfd5978f877c"
+        ],
+        "connections": [
+          [
+            "mac",
+            "fc:03:9f:cf:ca:91"
+          ],
+          [
+            "mac",
+            "64:1c:ae:e7:b8:f8"
+          ]
+        ],
+        "identifiers": [
+          [
+            "fritz",
+            "64:1C:AE:E7:B8:F8"
+          ],
+          [
+            "fritz",
+            "FC:03:9F:CF:CA:91"
+          ],
+          [
+            "samsungtv",
+            "3b71df29-c6f5-4bc2-8b3f-a30f3e408ee4"
+          ]
+        ],
+        "manufacturer": "Samsung",
+        "model": "UE55NU7179",
+        "name": "Samsung 7 Series (55)",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "4b59e3e7d453fef4ebfe44d5d32e5491",
+        "via_device_id": "ae5567bf3b433a67e32915e47dd5d164",
+        "area_id": "wohnzimmer",
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "e6658c216a787f4a46cedfd5978f877c"
+        ],
+        "connections": [
+          [
+            "mac",
+            "66:98:63:8e:51:41"
+          ]
+        ],
+        "identifiers": [
+          [
+            "fritz",
+            "66:98:63:8E:51:41"
+          ]
+        ],
+        "manufacturer": "AVM",
+        "model": "FRITZ!Box Tracked device",
+        "name": "Ipad-Barney Internet Access",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "e4befb2f5dda40e7a56db37c1dbf200a",
+        "via_device_id": "ae5567bf3b433a67e32915e47dd5d164",
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "e6658c216a787f4a46cedfd5978f877c"
+        ],
+        "connections": [
+          [
+            "mac",
+            "10:3d:1c:30:a3:4f"
+          ]
+        ],
+        "identifiers": [
+          [
+            "fritz",
+            "10:3D:1C:30:A3:4F"
+          ]
+        ],
+        "manufacturer": "AVM",
+        "model": "FRITZ!Box Tracked device",
+        "name": "CMTCL0X74591302 Internet Access",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "a6fc14917d2f764e0817b9cc54bed47e",
+        "via_device_id": "ae5567bf3b433a67e32915e47dd5d164",
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "e6658c216a787f4a46cedfd5978f877c"
+        ],
+        "connections": [
+          [
+            "mac",
+            "02:31:92:07:4f:05"
+          ]
+        ],
+        "identifiers": [
+          [
+            "fritz",
+            "02:31:92:07:4F:05"
+          ]
+        ],
+        "manufacturer": "AVM",
+        "model": "FRITZ!Box Tracked device",
+        "name": "PC-192-168-178-100 Internet Access",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "3b35396a0f2287c063e7c80662ac1e98",
+        "via_device_id": "ae5567bf3b433a67e32915e47dd5d164",
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "e6658c216a787f4a46cedfd5978f877c"
+        ],
+        "connections": [
+          [
+            "mac",
+            "ea:ec:15:bf:7c:d0"
+          ]
+        ],
+        "identifiers": [
+          [
+            "fritz",
+            "EA:EC:15:BF:7C:D0"
+          ]
+        ],
+        "manufacturer": "AVM",
+        "model": "FRITZ!Box Tracked device",
+        "name": "b01ac950-e2fa-4490-8661-32dfcb544fcb Internet Access",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "05f927a7d650cbe8e83691928ee0fb1d",
+        "via_device_id": "ae5567bf3b433a67e32915e47dd5d164",
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "e6658c216a787f4a46cedfd5978f877c"
+        ],
+        "connections": [
+          [
+            "mac",
+            "7a:bc:a7:72:a5:77"
+          ]
+        ],
+        "identifiers": [
+          [
+            "fritz",
+            "7A:BC:A7:72:A5:77"
+          ]
+        ],
+        "manufacturer": "AVM",
+        "model": "FRITZ!Box Tracked device",
+        "name": "PC-192-168-178-22 Internet Access",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "5b9fb59b925a3245eec0798ea83707d8",
+        "via_device_id": "ae5567bf3b433a67e32915e47dd5d164",
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "e6658c216a787f4a46cedfd5978f877c"
+        ],
+        "connections": [
+          [
+            "mac",
+            "c0:b8:83:a6:cb:51"
+          ]
+        ],
+        "identifiers": [
+          [
+            "fritz",
+            "C0:B8:83:A6:CB:51"
+          ]
+        ],
+        "manufacturer": "AVM",
+        "model": "FRITZ!Box Tracked device",
+        "name": "cmtcleu68214518 Internet Access",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "23500875f3da40cc82bba49b6522bbe7",
+        "via_device_id": "ae5567bf3b433a67e32915e47dd5d164",
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "e6658c216a787f4a46cedfd5978f877c"
+        ],
+        "connections": [
+          [
+            "mac",
+            "da:fa:d0:58:10:42"
+          ]
+        ],
+        "identifiers": [
+          [
+            "fritz",
+            "DA:FA:D0:58:10:42"
+          ]
+        ],
+        "manufacturer": "AVM",
+        "model": "FRITZ!Box Tracked device",
+        "name": "PC-192-168-178-30 Internet Access",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "8eaa1fb9ef781dc968b076640ebe5bda",
+        "via_device_id": "ae5567bf3b433a67e32915e47dd5d164",
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "e6658c216a787f4a46cedfd5978f877c"
+        ],
+        "connections": [
+          [
+            "mac",
+            "e8:d0:fc:e6:1a:49"
+          ]
+        ],
+        "identifiers": [
+          [
+            "fritz",
+            "E8:D0:FC:E6:1A:49"
+          ]
+        ],
+        "manufacturer": "AVM",
+        "model": "FRITZ!Box Tracked device",
+        "name": "LAPTOP-2UN73O4D Internet Access",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "77aed17964a4a78182b52fedfef31beb",
+        "via_device_id": "ae5567bf3b433a67e32915e47dd5d164",
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "e6658c216a787f4a46cedfd5978f877c"
+        ],
+        "connections": [
+          [
+            "mac",
+            "f0:d5:bf:b3:0e:4d"
+          ]
+        ],
+        "identifiers": [
+          [
+            "fritz",
+            "F0:D5:BF:B3:0E:4D"
+          ]
+        ],
+        "manufacturer": "AVM",
+        "model": "FRITZ!Box Tracked device",
+        "name": "DESKTOP-G177HSK Internet Access",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "a8df9e7b8cb8a44d3e857ab9018ae566",
+        "via_device_id": "ae5567bf3b433a67e32915e47dd5d164",
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "e6658c216a787f4a46cedfd5978f877c"
+        ],
+        "connections": [
+          [
+            "mac",
+            "dc:a6:32:af:44:aa"
+          ]
+        ],
+        "identifiers": [
+          [
+            "fritz",
+            "DC:A6:32:AF:44:AA"
+          ]
+        ],
+        "manufacturer": "AVM",
+        "model": "FRITZ!Box Tracked device",
+        "name": "raspberrypi Internet Access",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "22efd6b81b944493650f24cd9fee0854",
+        "via_device_id": "ae5567bf3b433a67e32915e47dd5d164",
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "e6658c216a787f4a46cedfd5978f877c"
+        ],
+        "connections": [
+          [
+            "mac",
+            "1e:ff:a2:85:30:51"
+          ]
+        ],
+        "identifiers": [
+          [
+            "fritz",
+            "1E:FF:A2:85:30:51"
+          ]
+        ],
+        "manufacturer": "AVM",
+        "model": "FRITZ!Box Tracked device",
+        "name": "raspberrypi Internet Access",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "89baf8d462c0908900db6a4cc8516321",
+        "via_device_id": "ae5567bf3b433a67e32915e47dd5d164",
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "e6658c216a787f4a46cedfd5978f877c"
+        ],
+        "connections": [
+          [
+            "mac",
+            "aa:42:28:d2:c1:13"
+          ]
+        ],
+        "identifiers": [
+          [
+            "fritz",
+            "AA:42:28:D2:C1:13"
+          ]
+        ],
+        "manufacturer": "AVM",
+        "model": "FRITZ!Box Tracked device",
+        "name": "raspberrypi Internet Access",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "adbb341968f9725aa1e51e88d47a3dae",
+        "via_device_id": "ae5567bf3b433a67e32915e47dd5d164",
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "e6658c216a787f4a46cedfd5978f877c"
+        ],
+        "connections": [
+          [
+            "mac",
+            "aa:1c:26:37:f8:be"
+          ]
+        ],
+        "identifiers": [
+          [
+            "fritz",
+            "AA:1C:26:37:F8:BE"
+          ]
+        ],
+        "manufacturer": "AVM",
+        "model": "FRITZ!Box Tracked device",
+        "name": "raspberrypi Internet Access",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "b86f30ee9f7459727dac796304b24dec",
+        "via_device_id": "ae5567bf3b433a67e32915e47dd5d164",
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "b5d3e5309188ab7f3da544f4ff9265fe",
+          "7d7ebdb0cf98e6c32531ee9b97555cb9"
+        ],
+        "connections": [
+          [
+            "upnp",
+            "uuid:75802409-bccb-40e7-8e6c-3C37129789DF"
+          ]
+        ],
+        "identifiers": [
+          [
+            "upnp_host",
+            "192.168.178.1"
+          ],
+          [
+            "upnp",
+            "uuid:75802409-bccb-40e7-9f6c-3C37129789DF::urn:schemas-upnp-org:device:InternetGatewayDevice:2"
+          ]
+        ],
+        "manufacturer": "AVM Berlin",
+        "model": "FRITZ!Box 7530 AX",
+        "name": "FRITZ!Box 7530 AX",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "7147bfe12afb3864ed363d3e211b933a",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "http://192.168.178.1"
+      },
+      {
+        "config_entries": [
+          "b5d3e5309188ab7f3da544f4ff9265fe",
+          "7d7ebdb0cf98e6c32531ee9b97555cb9"
+        ],
+        "connections": [
+          [
+            "upnp",
+            "uuid:75802409-bccb-40e7-9f6c-3C37129789DF"
+          ]
+        ],
+        "identifiers": [
+          [
+            "upnp_host",
+            "192.168.178.1"
+          ],
+          [
+            "upnp",
+            "uuid:75802409-bccb-40e7-9f6c-3C37129789DF::urn:schemas-upnp-org:device:InternetGatewayDevice:2"
+          ]
+        ],
+        "manufacturer": "AVM Berlin",
+        "model": "FRITZ!Box 7530 AX",
+        "name": "InternetGatewayDeviceV2 - FRITZ!Box 7530 AX",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "35b5180f0da04e59fefa4f1afec60ac7",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "http://192.168.178.1"
+      },
+      {
+        "config_entries": [
+          "e6658c216a787f4a46cedfd5978f877c"
+        ],
+        "connections": [
+          [
+            "mac",
+            "7e:cc:5f:e9:ca:fb"
+          ]
+        ],
+        "identifiers": [
+          [
+            "fritz",
+            "7E:CC:5F:E9:CA:FB"
+          ]
+        ],
+        "manufacturer": "AVM",
+        "model": "FRITZ!Box Tracked device",
+        "name": "raspberrypi Internet Access",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "a5c066a7863f06074a7e0b1ed6988fec",
+        "via_device_id": "ae5567bf3b433a67e32915e47dd5d164",
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "e6658c216a787f4a46cedfd5978f877c"
+        ],
+        "connections": [
+          [
+            "mac",
+            "b2:ae:34:b5:7e:cf"
+          ]
+        ],
+        "identifiers": [
+          [
+            "fritz",
+            "B2:AE:34:B5:7E:CF"
+          ]
+        ],
+        "manufacturer": "AVM",
+        "model": "FRITZ!Box Tracked device",
+        "name": "PC-192-168-179-3 Internet Access",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "3386f2d025343f48450ad0b698863a54",
+        "via_device_id": "ae5567bf3b433a67e32915e47dd5d164",
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "7f353f5fd3240a0cefb065cf87968db4",
+          "e6658c216a787f4a46cedfd5978f877c"
+        ],
+        "connections": [
+          [
+            "mac",
+            "dc:4f:22:fd:b5:3b"
+          ]
+        ],
+        "identifiers": [
+          [
+            "flux_led",
+            "7088012c70dd5b034116c88c24d03868"
+          ],
+          [
+            "flux_led",
+            "ee8fba740c0cbe12f5be4754ef8b9a77"
+          ],
+          [
+            "flux_led",
+            "7f353f5fd3240a0cefb065cf87968db4"
+          ],
+          [
+            "fritz",
+            "DC:4F:22:FD:B5:3B"
+          ]
+        ],
+        "manufacturer": "Zengge",
+        "model": "Controller RGB IR (0x33)",
+        "name": "Controller RGB IR FDB53B",
+        "sw_version": "6.37",
+        "hw_version": "AK001-ZJ210",
+        "entry_type": null,
+        "id": "dcfe909dac8daef340f5343362783c07",
+        "via_device_id": "ae5567bf3b433a67e32915e47dd5d164",
+        "area_id": "workroom",
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "a4c28214ba09f14169d70379ae378532"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "hassio",
+            "core_configurator"
+          ]
+        ],
+        "manufacturer": "Official add-ons",
+        "model": "Home Assistant Add-on",
+        "name": "File editor",
+        "sw_version": "5.4.1",
+        "hw_version": null,
+        "entry_type": "service",
+        "id": "9ae5704a0b91365ff916c972a257433d",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "homeassistant://hassio/addon/core_configurator"
+      },
+      {
+        "config_entries": [
+          "a4c28214ba09f14169d70379ae378532"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "hassio",
+            "core_check_config"
+          ]
+        ],
+        "manufacturer": "Official add-ons",
+        "model": "Home Assistant Add-on",
+        "name": "Check Home Assistant configuration",
+        "sw_version": "3.11.0",
+        "hw_version": null,
+        "entry_type": "service",
+        "id": "fc98f4e345f1677c31f28af7f8630e0a",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "homeassistant://hassio/addon/core_check_config"
+      },
+      {
+        "config_entries": [
+          "a4c28214ba09f14169d70379ae378532"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "hassio",
+            "core_duckdns"
+          ]
+        ],
+        "manufacturer": "Official add-ons",
+        "model": "Home Assistant Add-on",
+        "name": "Duck DNS",
+        "sw_version": "1.15.0",
+        "hw_version": null,
+        "entry_type": "service",
+        "id": "8134a1b0231a21b8c8339497da54afb0",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "homeassistant://hassio/addon/core_duckdns"
+      },
+      {
+        "config_entries": [
+          "a4c28214ba09f14169d70379ae378532"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "hassio",
+            "core_ssh"
+          ]
+        ],
+        "manufacturer": "Official add-ons",
+        "model": "Home Assistant Add-on",
+        "name": "Terminal & SSH",
+        "sw_version": "9.6.1",
+        "hw_version": null,
+        "entry_type": "service",
+        "id": "d2e69e1ab81b4d9a7900cea717359735",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "homeassistant://hassio/addon/core_ssh"
+      },
+      {
+        "config_entries": [
+          "e6658c216a787f4a46cedfd5978f877c"
+        ],
+        "connections": [
+          [
+            "mac",
+            "0e:e2:3e:75:9e:93"
+          ]
+        ],
+        "identifiers": [
+          [
+            "fritz",
+            "0E:E2:3E:75:9E:93"
+          ]
+        ],
+        "manufacturer": "AVM",
+        "model": "FRITZ!Box Tracked device",
+        "name": "raspberrypi Internet Access",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "87dfd71fa1dccaba4e9f530c778463c9",
+        "via_device_id": "ae5567bf3b433a67e32915e47dd5d164",
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "e6658c216a787f4a46cedfd5978f877c"
+        ],
+        "connections": [
+          [
+            "mac",
+            "da:8b:a0:60:8b:aa"
+          ]
+        ],
+        "identifiers": [
+          [
+            "fritz",
+            "DA:8B:A0:60:8B:AA"
+          ]
+        ],
+        "manufacturer": "AVM",
+        "model": "FRITZ!Box Tracked device",
+        "name": "raspberrypi Internet Access",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "5239c4aca8e14c9eeca7182572ea5767",
+        "via_device_id": "ae5567bf3b433a67e32915e47dd5d164",
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "e6658c216a787f4a46cedfd5978f877c"
+        ],
+        "connections": [
+          [
+            "mac",
+            "6e:48:33:ac:94:35"
+          ]
+        ],
+        "identifiers": [
+          [
+            "fritz",
+            "6E:48:33:AC:94:35"
+          ]
+        ],
+        "manufacturer": "AVM",
+        "model": "FRITZ!Box Tracked device",
+        "name": "raspberrypi Internet Access",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "34377379e9317ba387a407996d9977f3",
+        "via_device_id": "ae5567bf3b433a67e32915e47dd5d164",
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "e6658c216a787f4a46cedfd5978f877c"
+        ],
+        "connections": [
+          [
+            "mac",
+            "e6:2c:11:e5:2e:43"
+          ]
+        ],
+        "identifiers": [
+          [
+            "fritz",
+            "E6:2C:11:E5:2E:43"
+          ]
+        ],
+        "manufacturer": "AVM",
+        "model": "FRITZ!Box Tracked device",
+        "name": "raspberrypi Internet Access",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "73110f0c2890005e4eea1d72cd043262",
+        "via_device_id": "ae5567bf3b433a67e32915e47dd5d164",
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "e6658c216a787f4a46cedfd5978f877c"
+        ],
+        "connections": [
+          [
+            "mac",
+            "d6:53:12:f5:1a:d3"
+          ]
+        ],
+        "identifiers": [
+          [
+            "fritz",
+            "D6:53:12:F5:1A:D3"
+          ]
+        ],
+        "manufacturer": "AVM",
+        "model": "FRITZ!Box Tracked device",
+        "name": "raspberrypi Internet Access",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "30a866980ab90c143205d6882aebb2bf",
+        "via_device_id": "ae5567bf3b433a67e32915e47dd5d164",
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "fb885550b36c5883074791e333da16c1"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "mobile_app",
+            "CA58349A-2A9F-4A17-A4EA-CC742BD50490"
+          ]
+        ],
+        "manufacturer": "Apple",
+        "model": "iPhone12,1",
+        "name": "iPhone Barney ",
+        "sw_version": "16.0.2",
+        "hw_version": null,
+        "entry_type": null,
+        "id": "c55968c20182d6de3b3dbc656a2bee9c",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "c94b4ae44a7ba662123ba9eefbb7699d"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "mobile_app",
+            "0E731117-6D89-4451-B7B1-1F05D9781595"
+          ]
+        ],
+        "manufacturer": "Apple",
+        "model": "iPad13,4",
+        "name": "Ipad Barney",
+        "sw_version": "15.6",
+        "hw_version": null,
+        "entry_type": null,
+        "id": "9f784bfac390cd38b0fe4765e6479a7a",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "a4c28214ba09f14169d70379ae378532"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "hassio",
+            "a0d7b954_nodered"
+          ]
+        ],
+        "manufacturer": "Home Assistant Community Add-ons",
+        "model": "Home Assistant Add-on",
+        "name": "Node-RED",
+        "sw_version": "13.5.1",
+        "hw_version": null,
+        "entry_type": "service",
+        "id": "4dcf95fc8afc9b596f66b89be7fa6342",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "homeassistant://hassio/addon/a0d7b954_nodered"
+      },
+      {
+        "config_entries": [
+          "e6658c216a787f4a46cedfd5978f877c"
+        ],
+        "connections": [
+          [
+            "mac",
+            "92:ed:84:dd:e3:79"
+          ]
+        ],
+        "identifiers": [
+          [
+            "fritz",
+            "92:ED:84:DD:E3:79"
+          ]
+        ],
+        "manufacturer": "AVM",
+        "model": "FRITZ!Box Tracked device",
+        "name": "PC-192-168-179-5 Internet Access",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "70c919f434f1a928f52aa9ff7035bfcd",
+        "via_device_id": "ae5567bf3b433a67e32915e47dd5d164",
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "e6658c216a787f4a46cedfd5978f877c"
+        ],
+        "connections": [
+          [
+            "mac",
+            "d2:57:73:6c:fd:02"
+          ]
+        ],
+        "identifiers": [
+          [
+            "fritz",
+            "D2:57:73:6C:FD:02"
+          ]
+        ],
+        "manufacturer": "AVM",
+        "model": "FRITZ!Box Tracked device",
+        "name": "raspberrypi Internet Access",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "a4af3fe90c983a56ba5e9bd420cdbe6e",
+        "via_device_id": "ae5567bf3b433a67e32915e47dd5d164",
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "e6658c216a787f4a46cedfd5978f877c"
+        ],
+        "connections": [
+          [
+            "mac",
+            "ca:fd:b2:ec:78:98"
+          ]
+        ],
+        "identifiers": [
+          [
+            "fritz",
+            "CA:FD:B2:EC:78:98"
+          ]
+        ],
+        "manufacturer": "AVM",
+        "model": "FRITZ!Box Tracked device",
+        "name": "raspberrypi Internet Access",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "d602313b19061828a7f0f4d848e5b767",
+        "via_device_id": "ae5567bf3b433a67e32915e47dd5d164",
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "e6658c216a787f4a46cedfd5978f877c"
+        ],
+        "connections": [
+          [
+            "mac",
+            "82:ed:36:67:7f:19"
+          ]
+        ],
+        "identifiers": [
+          [
+            "fritz",
+            "82:ED:36:67:7F:19"
+          ]
+        ],
+        "manufacturer": "AVM",
+        "model": "FRITZ!Box Tracked device",
+        "name": "raspberrypi Internet Access",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "230b0d7c8726953b818207c302a6a0b3",
+        "via_device_id": "ae5567bf3b433a67e32915e47dd5d164",
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "e6658c216a787f4a46cedfd5978f877c"
+        ],
+        "connections": [
+          [
+            "mac",
+            "e2:67:11:c0:ac:c5"
+          ]
+        ],
+        "identifiers": [
+          [
+            "fritz",
+            "E2:67:11:C0:AC:C5"
+          ]
+        ],
+        "manufacturer": "AVM",
+        "model": "FRITZ!Box Tracked device",
+        "name": "raspberrypi Internet Access",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "4e6a07d5bbcd55e87ff2ad8fbf66a2bc",
+        "via_device_id": "ae5567bf3b433a67e32915e47dd5d164",
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "e6658c216a787f4a46cedfd5978f877c"
+        ],
+        "connections": [
+          [
+            "mac",
+            "98:e7:43:f1:90:22"
+          ]
+        ],
+        "identifiers": [
+          [
+            "fritz",
+            "98:E7:43:F1:90:22"
+          ]
+        ],
+        "manufacturer": "AVM",
+        "model": "FRITZ!Box Tracked device",
+        "name": "cmtcleu68214518 Internet Access",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "a390ad4fb979319125e68b5fb4b992a6",
+        "via_device_id": "ae5567bf3b433a67e32915e47dd5d164",
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "e6658c216a787f4a46cedfd5978f877c"
+        ],
+        "connections": [
+          [
+            "mac",
+            "26:58:04:57:67:19"
+          ]
+        ],
+        "identifiers": [
+          [
+            "fritz",
+            "26:58:04:57:67:19"
+          ]
+        ],
+        "manufacturer": "AVM",
+        "model": "FRITZ!Box Tracked device",
+        "name": "raspberrypi Internet Access",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "3322843fe3b6729954985443ecf8f513",
+        "via_device_id": "ae5567bf3b433a67e32915e47dd5d164",
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "e6658c216a787f4a46cedfd5978f877c"
+        ],
+        "connections": [
+          [
+            "mac",
+            "fa:fd:40:12:cf:aa"
+          ]
+        ],
+        "identifiers": [
+          [
+            "fritz",
+            "FA:FD:40:12:CF:AA"
+          ]
+        ],
+        "manufacturer": "AVM",
+        "model": "FRITZ!Box Tracked device",
+        "name": "raspberrypi Internet Access",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "9ed32d8a456fbd6f43ca7b61c94d89f7",
+        "via_device_id": "ae5567bf3b433a67e32915e47dd5d164",
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "e6658c216a787f4a46cedfd5978f877c"
+        ],
+        "connections": [
+          [
+            "mac",
+            "c6:d9:b5:d9:42:d7"
+          ]
+        ],
+        "identifiers": [
+          [
+            "fritz",
+            "C6:D9:B5:D9:42:D7"
+          ]
+        ],
+        "manufacturer": "AVM",
+        "model": "FRITZ!Box Tracked device",
+        "name": "raspberrypi Internet Access",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "cb37fdfc2928d11ea508bf17ea81b39f",
+        "via_device_id": "ae5567bf3b433a67e32915e47dd5d164",
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "e6658c216a787f4a46cedfd5978f877c"
+        ],
+        "connections": [
+          [
+            "mac",
+            "32:34:c5:91:96:10"
+          ]
+        ],
+        "identifiers": [
+          [
+            "fritz",
+            "32:34:C5:91:96:10"
+          ]
+        ],
+        "manufacturer": "AVM",
+        "model": "FRITZ!Box Tracked device",
+        "name": "raspberrypi Internet Access",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "6568e499ac95076974fc845f1841c011",
+        "via_device_id": "ae5567bf3b433a67e32915e47dd5d164",
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "e6658c216a787f4a46cedfd5978f877c"
+        ],
+        "connections": [
+          [
+            "mac",
+            "0a:59:20:6f:02:a0"
+          ]
+        ],
+        "identifiers": [
+          [
+            "fritz",
+            "0A:59:20:6F:02:A0"
+          ]
+        ],
+        "manufacturer": "AVM",
+        "model": "FRITZ!Box Tracked device",
+        "name": "raspberrypi Internet Access",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "213f6f757268682616fb10e82208f5d5",
+        "via_device_id": "ae5567bf3b433a67e32915e47dd5d164",
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "a4c28214ba09f14169d70379ae378532"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "hassio",
+            "a0d7b954_adguard"
+          ]
+        ],
+        "manufacturer": "Home Assistant Community Add-ons",
+        "model": "Home Assistant Add-on",
+        "name": "AdGuard Home",
+        "sw_version": "4.7.4",
+        "hw_version": null,
+        "entry_type": "service",
+        "id": "046502fbb21c2b62845d1d31ba8cdcd5",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "homeassistant://hassio/addon/a0d7b954_adguard"
+      },
+      {
+        "config_entries": [
+          "1c80bcf959e08fcb477ab36553eee78f"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "adguard",
+            "127.0.0.1",
+            45158,
+            "/control/"
+          ]
+        ],
+        "manufacturer": "AdGuard Team",
+        "model": null,
+        "name": "AdGuard Home",
+        "sw_version": "v0.107.13",
+        "hw_version": null,
+        "entry_type": "service",
+        "id": "b4245670a783bb30c77a2898ba5cd841",
+        "via_device_id": null,
+        "area_id": "living_room",
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "homeassistant://hassio/ingress/a0d7b954_adguard"
+      },
+      {
+        "config_entries": [
+          "e6658c216a787f4a46cedfd5978f877c"
+        ],
+        "connections": [
+          [
+            "mac",
+            "56:0f:58:56:9f:f7"
+          ]
+        ],
+        "identifiers": [
+          [
+            "fritz",
+            "56:0F:58:56:9F:F7"
+          ]
+        ],
+        "manufacturer": "AVM",
+        "model": "FRITZ!Box Tracked device",
+        "name": "raspberrypi Internet Access",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "8e1d254ae23d3514b52062d09b25ece1",
+        "via_device_id": "ae5567bf3b433a67e32915e47dd5d164",
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "e6658c216a787f4a46cedfd5978f877c"
+        ],
+        "connections": [
+          [
+            "mac",
+            "dc:a6:32:af:44:a9"
+          ]
+        ],
+        "identifiers": [
+          [
+            "fritz",
+            "DC:A6:32:AF:44:A9"
+          ]
+        ],
+        "manufacturer": "AVM",
+        "model": "FRITZ!Box Tracked device",
+        "name": "raspberrypi Internet Access",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "0553665ddfb6b670b73764e3ba762921",
+        "via_device_id": "ae5567bf3b433a67e32915e47dd5d164",
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "e6658c216a787f4a46cedfd5978f877c"
+        ],
+        "connections": [
+          [
+            "mac",
+            "42:db:42:41:f8:20"
+          ]
+        ],
+        "identifiers": [
+          [
+            "fritz",
+            "42:DB:42:41:F8:20"
+          ]
+        ],
+        "manufacturer": "AVM",
+        "model": "FRITZ!Box Tracked device",
+        "name": "raspberrypi Internet Access",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "af6979b88645964f8baa8aae9853821c",
+        "via_device_id": "ae5567bf3b433a67e32915e47dd5d164",
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "e6658c216a787f4a46cedfd5978f877c"
+        ],
+        "connections": [
+          [
+            "mac",
+            "46:24:f2:c1:26:70"
+          ]
+        ],
+        "identifiers": [
+          [
+            "fritz",
+            "46:24:F2:C1:26:70"
+          ]
+        ],
+        "manufacturer": "AVM",
+        "model": "FRITZ!Box Tracked device",
+        "name": "raspberrypi Internet Access",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "928801e8ded420da307b32f3f7426166",
+        "via_device_id": "ae5567bf3b433a67e32915e47dd5d164",
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "e6658c216a787f4a46cedfd5978f877c"
+        ],
+        "connections": [
+          [
+            "mac",
+            "32:ee:2d:4d:a5:ff"
+          ]
+        ],
+        "identifiers": [
+          [
+            "fritz",
+            "32:EE:2D:4D:A5:FF"
+          ]
+        ],
+        "manufacturer": "AVM",
+        "model": "FRITZ!Box Tracked device",
+        "name": "raspberrypi Internet Access",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "bd7ada72c7be6150d122f377d6f8045d",
+        "via_device_id": "ae5567bf3b433a67e32915e47dd5d164",
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "e6658c216a787f4a46cedfd5978f877c"
+        ],
+        "connections": [
+          [
+            "mac",
+            "7a:91:b3:be:56:c3"
+          ]
+        ],
+        "identifiers": [
+          [
+            "fritz",
+            "7A:91:B3:BE:56:C3"
+          ]
+        ],
+        "manufacturer": "AVM",
+        "model": "FRITZ!Box Tracked device",
+        "name": "raspberrypi Internet Access",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "534fc5df8db6f0048479aef6ae3966d9",
+        "via_device_id": "ae5567bf3b433a67e32915e47dd5d164",
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "a4c28214ba09f14169d70379ae378532"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "hassio",
+            "a0d7b954_spotify"
+          ]
+        ],
+        "manufacturer": "Home Assistant Community Add-ons",
+        "model": "Home Assistant Add-on",
+        "name": "Spotify Connect",
+        "sw_version": "0.12.2",
+        "hw_version": null,
+        "entry_type": "service",
+        "id": "640edc9518f16b4001e88cbd18f7f8aa",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "homeassistant://hassio/addon/a0d7b954_spotify"
+      },
+      {
+        "config_entries": [
+          "cb6970c93d084d3d7a7a18928f341fca"
+        ],
+        "connections": [
+          [
+            "mac",
+            "3c:37:12:cf:94:c1"
+          ]
+        ],
+        "identifiers": [
+          [
+            "fritz",
+            "3C3712CF94C1"
+          ]
+        ],
+        "manufacturer": "AVM",
+        "model": "FRITZ!Repeater 1200 AX",
+        "name": "FRITZ!Repeater 1200 AX",
+        "sw_version": "268.07.30",
+        "hw_version": null,
+        "entry_type": null,
+        "id": "85b189bc935061efe4e1635a6a0a4802",
+        "via_device_id": null,
+        "area_id": "living_room",
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "http://192.168.178.29"
+      },
+      {
+        "config_entries": [
+          "e6658c216a787f4a46cedfd5978f877c"
+        ],
+        "connections": [
+          [
+            "mac",
+            "06:b8:ad:69:cb:64"
+          ]
+        ],
+        "identifiers": [
+          [
+            "fritz",
+            "06:B8:AD:69:CB:64"
+          ]
+        ],
+        "manufacturer": "AVM",
+        "model": "FRITZ!Box Tracked device",
+        "name": "PC-192-168-178-40 Internet Access",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "bc1a2f47645baef4ad5cbd878ed8b46a",
+        "via_device_id": "ae5567bf3b433a67e32915e47dd5d164",
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "e6658c216a787f4a46cedfd5978f877c"
+        ],
+        "connections": [
+          [
+            "mac",
+            "ea:11:53:be:d9:04"
+          ]
+        ],
+        "identifiers": [
+          [
+            "fritz",
+            "EA:11:53:BE:D9:04"
+          ]
+        ],
+        "manufacturer": "AVM",
+        "model": "FRITZ!Box Tracked device",
+        "name": "raspberrypi Internet Access",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "79c4c7c948e9f550da3741873488e73f",
+        "via_device_id": "ae5567bf3b433a67e32915e47dd5d164",
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "e6658c216a787f4a46cedfd5978f877c"
+        ],
+        "connections": [
+          [
+            "mac",
+            "a6:3c:d2:cd:b6:13"
+          ]
+        ],
+        "identifiers": [
+          [
+            "fritz",
+            "A6:3C:D2:CD:B6:13"
+          ]
+        ],
+        "manufacturer": "AVM",
+        "model": "FRITZ!Box Tracked device",
+        "name": "raspberrypi Internet Access",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "475818fd8a6582efd6a2f9848f2830cd",
+        "via_device_id": "ae5567bf3b433a67e32915e47dd5d164",
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "a4c28214ba09f14169d70379ae378532"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "hassio",
+            "a0d7b954_home-panel"
+          ]
+        ],
+        "manufacturer": "Home Assistant Community Add-ons",
+        "model": "Home Assistant Add-on",
+        "name": "Home Panel",
+        "sw_version": "2.5.0",
+        "hw_version": null,
+        "entry_type": "service",
+        "id": "240584a4328c988a3e425b0b25f99ec7",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "homeassistant://hassio/addon/a0d7b954_home-panel"
+      },
+      {
+        "config_entries": [
+          "a4c28214ba09f14169d70379ae378532"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "hassio",
+            "core_deconz"
+          ]
+        ],
+        "manufacturer": "Official add-ons",
+        "model": "Home Assistant Add-on",
+        "name": "deCONZ",
+        "sw_version": "6.16.0",
+        "hw_version": null,
+        "entry_type": "service",
+        "id": "1d48db66dcb3df992f3a94eee965551e",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "homeassistant://hassio/addon/core_deconz"
+      },
+      {
+        "config_entries": [
+          "059a7832e825327dd6bc9197bb60ae5c"
+        ],
+        "connections": [
+          [
+            "mac",
+            "02:42:ac:1e:21:02"
+          ]
+        ],
+        "identifiers": [],
+        "manufacturer": null,
+        "model": null,
+        "name": null,
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "046a49385b2b914f2da4a75f7d1b684e",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "059a7832e825327dd6bc9197bb60ae5c"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "deconz",
+            "00212E05E621"
+          ]
+        ],
+        "manufacturer": "Dresden Elektronik",
+        "model": "deCONZ",
+        "name": "Phoscon-GW",
+        "sw_version": "2.18.2",
+        "hw_version": null,
+        "entry_type": "service",
+        "id": "bb6e31d8a8b3fc04fe11226e7f8ba99d",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "http://172.30.33.2:40850"
+      },
+      {
+        "config_entries": [
+          "059a7832e825327dd6bc9197bb60ae5c"
+        ],
+        "connections": [
+          [
+            "zigbee",
+            "00:15:8d:00:01:e4:ae:ba"
+          ]
+        ],
+        "identifiers": [
+          [
+            "deconz",
+            "00:15:8d:00:01:e4:ae:ba"
+          ]
+        ],
+        "manufacturer": "LUMI",
+        "model": "lumi.sensor_motion.aq2",
+        "name": "bedroom_motion_sensor",
+        "sw_version": "3000-0001",
+        "hw_version": null,
+        "entry_type": null,
+        "id": "2dd973f44c105a6be653f7c66ed03f68",
+        "via_device_id": "bb6e31d8a8b3fc04fe11226e7f8ba99d",
+        "area_id": "bedroom",
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "059a7832e825327dd6bc9197bb60ae5c"
+        ],
+        "connections": [
+          [
+            "zigbee",
+            "00:15:8d:00:05:4d:ed:59"
+          ]
+        ],
+        "identifiers": [
+          [
+            "deconz",
+            "00:15:8d:00:05:4d:ed:59"
+          ]
+        ],
+        "manufacturer": "LUMI",
+        "model": "lumi.sensor_motion.aq2",
+        "name": "work_room_motion_sensor",
+        "sw_version": "3000-0001",
+        "hw_version": null,
+        "entry_type": null,
+        "id": "aef674de197cb5ba3ba323eaad7a4960",
+        "via_device_id": "bb6e31d8a8b3fc04fe11226e7f8ba99d",
+        "area_id": "workroom",
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "059a7832e825327dd6bc9197bb60ae5c"
+        ],
+        "connections": [
+          [
+            "zigbee",
+            "00:15:8d:00:01:27:11:7b"
+          ]
+        ],
+        "identifiers": [
+          [
+            "deconz",
+            "00:15:8d:00:01:27:11:7b"
+          ]
+        ],
+        "manufacturer": "ZigBee/CCT",
+        "model": "CCT Light",
+        "name": "retro_light_1",
+        "sw_version": "00.00.01",
+        "hw_version": null,
+        "entry_type": null,
+        "id": "d5c0299b4cb62272854d7ac1d701a509",
+        "via_device_id": "bb6e31d8a8b3fc04fe11226e7f8ba99d",
+        "area_id": "living_room",
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "059a7832e825327dd6bc9197bb60ae5c"
+        ],
+        "connections": [
+          [
+            "zigbee",
+            "00:15:8d:00:01:3b:07:eb"
+          ]
+        ],
+        "identifiers": [
+          [
+            "deconz",
+            "00:15:8d:00:01:3b:07:eb"
+          ]
+        ],
+        "manufacturer": "ZigBee/CCT",
+        "model": "CCT Light",
+        "name": "retro_light_2",
+        "sw_version": "00.00.01",
+        "hw_version": null,
+        "entry_type": null,
+        "id": "9983a6fd6fe15d2262204595872cc6a2",
+        "via_device_id": "bb6e31d8a8b3fc04fe11226e7f8ba99d",
+        "area_id": "living_room",
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "059a7832e825327dd6bc9197bb60ae5c"
+        ],
+        "connections": [
+          [
+            "zigbee",
+            "00:15:8d:00:01:2e:11:d4"
+          ]
+        ],
+        "identifiers": [
+          [
+            "deconz",
+            "00:15:8d:00:01:2e:11:d4"
+          ]
+        ],
+        "manufacturer": "ZigBee/CCT",
+        "model": "CCT Light",
+        "name": "retro_light_3",
+        "sw_version": "00.00.01",
+        "hw_version": null,
+        "entry_type": null,
+        "id": "fd8611212158e0e2aaa73cc56135e534",
+        "via_device_id": "bb6e31d8a8b3fc04fe11226e7f8ba99d",
+        "area_id": "living_room",
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "059a7832e825327dd6bc9197bb60ae5c"
+        ],
+        "connections": [
+          [
+            "zigbee",
+            "7c:b0:3e:aa:0a:04:11:58"
+          ]
+        ],
+        "identifiers": [
+          [
+            "deconz",
+            "7c:b0:3e:aa:0a:04:11:58"
+          ]
+        ],
+        "manufacturer": "OSRAM",
+        "model": "Classic A60 W clear - LIGHTIFY",
+        "name": "bedroom_lamp",
+        "sw_version": "V1.04.12",
+        "hw_version": null,
+        "entry_type": null,
+        "id": "952f9e39bdcdf79f0bca02396c62235c",
+        "via_device_id": "bb6e31d8a8b3fc04fe11226e7f8ba99d",
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "059a7832e825327dd6bc9197bb60ae5c"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "deconz",
+            "None-/groups/1"
+          ]
+        ],
+        "manufacturer": "Dresden Elektronik",
+        "model": "deCONZ group",
+        "name": "Group 1",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "e5057ba2ef29246b0afae6c3d4feb5d0",
+        "via_device_id": "bb6e31d8a8b3fc04fe11226e7f8ba99d",
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "059a7832e825327dd6bc9197bb60ae5c"
+        ],
+        "connections": [
+          [
+            "zigbee",
+            "00:21:2e:ff:ff:05:e6:21"
+          ]
+        ],
+        "identifiers": [
+          [
+            "deconz",
+            "00:21:2e:ff:ff:05:e6:21"
+          ]
+        ],
+        "manufacturer": "Philips",
+        "model": "PHDL00",
+        "name": "Daylight",
+        "sw_version": "1.0",
+        "hw_version": null,
+        "entry_type": null,
+        "id": "81db55b0a86c775a244433babacdabd8",
+        "via_device_id": "bb6e31d8a8b3fc04fe11226e7f8ba99d",
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "059a7832e825327dd6bc9197bb60ae5c"
+        ],
+        "connections": [
+          [
+            "zigbee",
+            "04:cf:8c:df:3c:77:72:33"
+          ]
+        ],
+        "identifiers": [
+          [
+            "deconz",
+            "04:cf:8c:df:3c:77:72:33"
+          ]
+        ],
+        "manufacturer": "LUMI",
+        "model": "lumi.plug.mmeu01",
+        "name": "Smart plug 8",
+        "sw_version": "09-06-2019",
+        "hw_version": null,
+        "entry_type": null,
+        "id": "299f7acd92be637586b82f8a29d1464a",
+        "via_device_id": "bb6e31d8a8b3fc04fe11226e7f8ba99d",
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "e6658c216a787f4a46cedfd5978f877c"
+        ],
+        "connections": [
+          [
+            "mac",
+            "ce:a0:1f:ca:70:e0"
+          ]
+        ],
+        "identifiers": [
+          [
+            "fritz",
+            "CE:A0:1F:CA:70:E0"
+          ]
+        ],
+        "manufacturer": "AVM",
+        "model": "FRITZ!Box Tracked device",
+        "name": "PC-192-168-178-36",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "25276927cbdadaf345cbdcb83bcc0111",
+        "via_device_id": "ae5567bf3b433a67e32915e47dd5d164",
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "e6658c216a787f4a46cedfd5978f877c"
+        ],
+        "connections": [
+          [
+            "mac",
+            "2e:e5:f6:37:2a:ea"
+          ]
+        ],
+        "identifiers": [
+          [
+            "fritz",
+            "2E:E5:F6:37:2A:EA"
+          ]
+        ],
+        "manufacturer": "AVM",
+        "model": "FRITZ!Box Tracked device",
+        "name": "PC-192-168-178-39",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "9e1ed72fd1a68d35407a744db453eabf",
+        "via_device_id": "ae5567bf3b433a67e32915e47dd5d164",
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "e6658c216a787f4a46cedfd5978f877c"
+        ],
+        "connections": [
+          [
+            "mac",
+            "fe:d3:c5:95:d7:10"
+          ]
+        ],
+        "identifiers": [
+          [
+            "fritz",
+            "FE:D3:C5:95:D7:10"
+          ]
+        ],
+        "manufacturer": "AVM",
+        "model": "FRITZ!Box Tracked device",
+        "name": "PC-192-168-179-6",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "e8d980371528fe221a1be237c5f95546",
+        "via_device_id": "ae5567bf3b433a67e32915e47dd5d164",
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "e6658c216a787f4a46cedfd5978f877c"
+        ],
+        "connections": [
+          [
+            "mac",
+            "96:33:79:a2:b3:2b"
+          ]
+        ],
+        "identifiers": [
+          [
+            "fritz",
+            "96:33:79:A2:B3:2B"
+          ]
+        ],
+        "manufacturer": "AVM",
+        "model": "FRITZ!Box Tracked device",
+        "name": "PC-192-168-179-7",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "027a353b4c6e1d829664acb7873ec5d6",
+        "via_device_id": "ae5567bf3b433a67e32915e47dd5d164",
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "e6658c216a787f4a46cedfd5978f877c"
+        ],
+        "connections": [
+          [
+            "mac",
+            "1e:89:a5:be:aa:41"
+          ]
+        ],
+        "identifiers": [
+          [
+            "fritz",
+            "1E:89:A5:BE:AA:41"
+          ]
+        ],
+        "manufacturer": "AVM",
+        "model": "FRITZ!Box Tracked device",
+        "name": "PC-192-168-178-43",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "f721508afdae08556d5fb7f000bd8c7e",
+        "via_device_id": "ae5567bf3b433a67e32915e47dd5d164",
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "e6658c216a787f4a46cedfd5978f877c"
+        ],
+        "connections": [
+          [
+            "mac",
+            "12:e1:c6:7e:96:71"
+          ]
+        ],
+        "identifiers": [
+          [
+            "fritz",
+            "12:E1:C6:7E:96:71"
+          ]
+        ],
+        "manufacturer": "AVM",
+        "model": "FRITZ!Box Tracked device",
+        "name": "PC-192-168-179-8",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "7bef9131f75944355d492f24ec12fc45",
+        "via_device_id": "ae5567bf3b433a67e32915e47dd5d164",
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "e6658c216a787f4a46cedfd5978f877c"
+        ],
+        "connections": [
+          [
+            "mac",
+            "42:d0:8b:89:e0:15"
+          ]
+        ],
+        "identifiers": [
+          [
+            "fritz",
+            "42:D0:8B:89:E0:15"
+          ]
+        ],
+        "manufacturer": "AVM",
+        "model": "FRITZ!Box Tracked device",
+        "name": "iPhone-Barney",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "28fbd115df45bb250f4f12b630bbbbcb",
+        "via_device_id": "ae5567bf3b433a67e32915e47dd5d164",
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "e6658c216a787f4a46cedfd5978f877c"
+        ],
+        "connections": [
+          [
+            "mac",
+            "9a:a4:49:90:22:4f"
+          ]
+        ],
+        "identifiers": [
+          [
+            "fritz",
+            "9A:A4:49:90:22:4F"
+          ]
+        ],
+        "manufacturer": "AVM",
+        "model": "FRITZ!Box Tracked device",
+        "name": "PC-192-168-178-44",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "c226571028427a9fbf39646331d0a378",
+        "via_device_id": "ae5567bf3b433a67e32915e47dd5d164",
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "3ab254f579fdc1d951562f6cd177fdef"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "icloud",
+            "uY4SLjrR3T0alP2rE2XSS5+HWu8r/vyBi7mxiFvihSk="
+          ]
+        ],
+        "manufacturer": "Apple",
+        "model": "iPad Pro (11-inch) (3rd generation)",
+        "name": "Ipad Barney",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "4cf9acfebddc40257ef6dfc2f7bade11",
+        "via_device_id": null,
+        "area_id": "workroom",
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "https://icloud.com/"
+      },
+      {
+        "config_entries": [
+          "e6658c216a787f4a46cedfd5978f877c"
+        ],
+        "connections": [
+          [
+            "mac",
+            "ae:61:c7:8c:61:d4"
+          ]
+        ],
+        "identifiers": [
+          [
+            "fritz",
+            "AE:61:C7:8C:61:D4"
+          ]
+        ],
+        "manufacturer": "AVM",
+        "model": "FRITZ!Box Tracked device",
+        "name": "OPPO-F21-Pro",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "2cd577462da4febec79cf692d56b0386",
+        "via_device_id": "ae5567bf3b433a67e32915e47dd5d164",
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "e6658c216a787f4a46cedfd5978f877c"
+        ],
+        "connections": [
+          [
+            "mac",
+            "04:c8:07:25:97:ee"
+          ]
+        ],
+        "identifiers": [
+          [
+            "fritz",
+            "04:C8:07:25:97:EE"
+          ]
+        ],
+        "manufacturer": "AVM",
+        "model": "FRITZ!Box Tracked device",
+        "name": "RedmiNote8Pro-RedmiN",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "ac9db232eb16e66da363d3e0447288b4",
+        "via_device_id": "ae5567bf3b433a67e32915e47dd5d164",
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "e6658c216a787f4a46cedfd5978f877c"
+        ],
+        "connections": [
+          [
+            "mac",
+            "4e:2a:cf:b9:cb:2a"
+          ]
+        ],
+        "identifiers": [
+          [
+            "fritz",
+            "4E:2A:CF:B9:CB:2A"
+          ]
+        ],
+        "manufacturer": "AVM",
+        "model": "FRITZ!Box Tracked device",
+        "name": "OnePlus-9-5G",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "18e498bd935ea29d452307f4dc5a330c",
+        "via_device_id": "ae5567bf3b433a67e32915e47dd5d164",
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "e6658c216a787f4a46cedfd5978f877c"
+        ],
+        "connections": [
+          [
+            "mac",
+            "fe:ba:2f:24:56:b6"
+          ]
+        ],
+        "identifiers": [
+          [
+            "fritz",
+            "FE:BA:2F:24:56:B6"
+          ]
+        ],
+        "manufacturer": "AVM",
+        "model": "FRITZ!Box Tracked device",
+        "name": "Manjus-iPhone",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "adee76a608d890ac677ff85a1e48938b",
+        "via_device_id": "ae5567bf3b433a67e32915e47dd5d164",
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "e6658c216a787f4a46cedfd5978f877c"
+        ],
+        "connections": [
+          [
+            "mac",
+            "d6:a1:50:45:5a:a0"
+          ]
+        ],
+        "identifiers": [
+          [
+            "fritz",
+            "D6:A1:50:45:5A:A0"
+          ]
+        ],
+        "manufacturer": "AVM",
+        "model": "FRITZ!Box Tracked device",
+        "name": "PC-192-168-179-14",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "9f4f7ba934156656c7646e40036b5507",
+        "via_device_id": "ae5567bf3b433a67e32915e47dd5d164",
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "e6658c216a787f4a46cedfd5978f877c"
+        ],
+        "connections": [
+          [
+            "mac",
+            "f2:ae:67:5a:90:6b"
+          ]
+        ],
+        "identifiers": [
+          [
+            "fritz",
+            "F2:AE:67:5A:90:6B"
+          ]
+        ],
+        "manufacturer": "AVM",
+        "model": "FRITZ!Box Tracked device",
+        "name": "V2055",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "55ed0e42c252a5295f6c34ef7d96d9a5",
+        "via_device_id": "ae5567bf3b433a67e32915e47dd5d164",
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "a4c28214ba09f14169d70379ae378532"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "hassio",
+            "core"
+          ]
+        ],
+        "manufacturer": "Home Assistant",
+        "model": "Home Assistant Core",
+        "name": "Home Assistant Core",
+        "sw_version": "2022.9.7",
+        "hw_version": null,
+        "entry_type": "service",
+        "id": "1bac247279fde22cff70e0affb322e06",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "a4c28214ba09f14169d70379ae378532"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "hassio",
+            "supervisor"
+          ]
+        ],
+        "manufacturer": "Home Assistant",
+        "model": "Home Assistant Supervisor",
+        "name": "Home Assistant Supervisor",
+        "sw_version": "2022.10.2",
+        "hw_version": null,
+        "entry_type": "service",
+        "id": "17bded525d12a11334ea7a8e6e1e577e",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "866cc135560e6af439e03ccd0b94c09a",
+          "e6658c216a787f4a46cedfd5978f877c"
+        ],
+        "connections": [
+          [
+            "mac",
+            "38:42:0b:70:21:d2"
+          ],
+          [
+            "upnp",
+            "uuid:RINCON_38420B7021D201400"
+          ]
+        ],
+        "identifiers": [
+          [
+            "fritz",
+            "38:42:0B:70:21:D2"
+          ],
+          [
+            "sonos",
+            "RINCON_38420B7021D201400"
+          ]
+        ],
+        "manufacturer": "Sonos",
+        "model": "One SL",
+        "name": "Wohnzimmer",
+        "sw_version": "14.18",
+        "hw_version": null,
+        "entry_type": null,
+        "id": "30c7714be6780e7e3ed99669df94033d",
+        "via_device_id": "ae5567bf3b433a67e32915e47dd5d164",
+        "area_id": "living_room",
+        "name_by_user": "Sonos Living Room",
+        "disabled_by": null,
+        "configuration_url": "http://192.168.178.45:1400/support/review"
+      },
+      {
+        "config_entries": [
+          "e6658c216a787f4a46cedfd5978f877c"
+        ],
+        "connections": [
+          [
+            "mac",
+            "c8:7b:23:3b:8d:15"
+          ]
+        ],
+        "identifiers": [
+          [
+            "fritz",
+            "C8:7B:23:3B:8D:15"
+          ]
+        ],
+        "manufacturer": "AVM",
+        "model": "FRITZ!Box Tracked device",
+        "name": "Bose-Smart-Speaker-500",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "7a62d78f93b5300c9a44bdadb59cd217",
+        "via_device_id": "ae5567bf3b433a67e32915e47dd5d164",
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "a4c28214ba09f14169d70379ae378532"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "hassio",
+            "a0d7b954_appdaemon"
+          ]
+        ],
+        "manufacturer": "Home Assistant Community Add-ons",
+        "model": "Home Assistant Add-on",
+        "name": "AppDaemon",
+        "sw_version": "0.9.3",
+        "hw_version": null,
+        "entry_type": "service",
+        "id": "4c1106ec3f825ca19466bf4ab5d83ed9",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "homeassistant://hassio/addon/a0d7b954_appdaemon"
+      },
+      {
+        "config_entries": [
+          "e6658c216a787f4a46cedfd5978f877c"
+        ],
+        "connections": [
+          [
+            "mac",
+            "06:7d:f1:fc:75:dc"
+          ]
+        ],
+        "identifiers": [
+          [
+            "fritz",
+            "06:7D:F1:FC:75:DC"
+          ]
+        ],
+        "manufacturer": "AVM",
+        "model": "FRITZ!Box Tracked device",
+        "name": "Gurudath-s-M51",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "b340c8010af43fd732f443722604047a",
+        "via_device_id": "ae5567bf3b433a67e32915e47dd5d164",
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "a4c28214ba09f14169d70379ae378532"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "hassio",
+            "a0d7b954_influxdb"
+          ]
+        ],
+        "manufacturer": "Home Assistant Community Add-ons",
+        "model": "Home Assistant Add-on",
+        "name": "InfluxDB",
+        "sw_version": "4.5.0",
+        "hw_version": null,
+        "entry_type": "service",
+        "id": "9cd52acc2ddbc9840fe628ed136c9035",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "homeassistant://hassio/addon/a0d7b954_influxdb"
+      },
+      {
+        "config_entries": [
+          "a4c28214ba09f14169d70379ae378532"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "hassio",
+            "a0d7b954_grafana"
+          ]
+        ],
+        "manufacturer": "Home Assistant Community Add-ons",
+        "model": "Home Assistant Add-on",
+        "name": "Grafana",
+        "sw_version": "8.0.2",
+        "hw_version": null,
+        "entry_type": "service",
+        "id": "b59d60149c4de9e0342053f29f684fc5",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "homeassistant://hassio/addon/a0d7b954_grafana"
+      },
+      {
+        "config_entries": [
+          "a3fd2c1a20d84df166bab5f0587c54e2"
+        ],
+        "connections": [
+          [
+            "bluetooth",
+            "DC:A6:32:AF:44:AB"
+          ]
+        ],
+        "identifiers": [],
+        "manufacturer": null,
+        "model": null,
+        "name": "hci0 (DC:A6:32:AF:44:AB)",
+        "sw_version": "HomeAssistant",
+        "hw_version": "usb:v1D6Bp0246d0532",
+        "entry_type": null,
+        "id": "5e8512fbda33f804b86dad13fb60132c",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "059a7832e825327dd6bc9197bb60ae5c"
+        ],
+        "connections": [
+          [
+            "zigbee",
+            "00:15:8d:00:05:48:a6:6a"
+          ]
+        ],
+        "identifiers": [
+          [
+            "deconz",
+            "00:15:8d:00:05:48:a6:6a"
+          ]
+        ],
+        "manufacturer": "LUMI",
+        "model": "lumi.weather",
+        "name": "Living_room_temperature",
+        "sw_version": "20191205",
+        "hw_version": null,
+        "entry_type": null,
+        "id": "e8d0d8823f3c0f6bed17acc86934a1f0",
+        "via_device_id": "bb6e31d8a8b3fc04fe11226e7f8ba99d",
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "059a7832e825327dd6bc9197bb60ae5c"
+        ],
+        "connections": [
+          [
+            "zigbee",
+            "00:15:8d:00:04:aa:f0:1e"
+          ]
+        ],
+        "identifiers": [
+          [
+            "deconz",
+            "00:15:8d:00:04:aa:f0:1e"
+          ]
+        ],
+        "manufacturer": "LUMI",
+        "model": "lumi.sensor_magnet.aq2",
+        "name": "Kitchen_window",
+        "sw_version": "20161128",
+        "hw_version": null,
+        "entry_type": null,
+        "id": "a7f28d77daca84dda0bd231376ac360b",
+        "via_device_id": "bb6e31d8a8b3fc04fe11226e7f8ba99d",
+        "area_id": "kitchen",
+        "name_by_user": "Kitchen_window",
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "2d04b294606fd1392868f574fd06c924"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "speedtestdotnet",
+            "2d04b294606fd1392868f574fd06c924"
+          ]
+        ],
+        "manufacturer": null,
+        "model": null,
+        "name": "SpeedTest",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": "service",
+        "id": "a93d8ceb7b72f2c0f58f900c6c7f3bcb",
+        "via_device_id": null,
+        "area_id": "living_room",
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "https://www.speedtest.net/"
+      },
+      {
+        "config_entries": [
+          "e5979139026ee9be89c0e5993646231e",
+          "e6658c216a787f4a46cedfd5978f877c"
+        ],
+        "connections": [
+          [
+            "mac",
+            "74:d4:23:07:bb:c7"
+          ]
+        ],
+        "identifiers": [
+          [
+            "fritz",
+            "74:D4:23:07:BB:C7"
+          ],
+          [
+            "fully_kiosk",
+            "46d2f1e7-1a734057"
+          ]
+        ],
+        "manufacturer": "Amazon",
+        "model": "KFQUWI",
+        "name": "Fire Tablet",
+        "sw_version": "1.49",
+        "hw_version": null,
+        "entry_type": null,
+        "id": "272c7537ca6c9fc21a041f649bb8622b",
+        "via_device_id": "ae5567bf3b433a67e32915e47dd5d164",
+        "area_id": "wohnzimmer",
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "http://192.168.178.24:2323"
+      },
+      {
+        "config_entries": [
+          "6dd6e8493978b11bbc10762add6fccf3"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "hacs",
+            "0717a0cd-745c-48fd-9b16-c8534c9704f9-bc944b0f-fd42-4a58-a072-ade38d1444cd"
+          ]
+        ],
+        "manufacturer": "hacs.xyz",
+        "model": "",
+        "name": "HACS",
+        "sw_version": "1.27.2",
+        "hw_version": null,
+        "entry_type": "service",
+        "id": "96853dc859500d03f887fd049a0b8058",
+        "via_device_id": null,
+        "area_id": "wohnzimmer",
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "homeassistant://hacs"
+      },
+      {
+        "config_entries": [
+          "e6658c216a787f4a46cedfd5978f877c"
+        ],
+        "connections": [
+          [
+            "mac",
+            "18:69:d8:12:9c:e5"
+          ]
+        ],
+        "identifiers": [
+          [
+            "fritz",
+            "18:69:D8:12:9C:E5"
+          ]
+        ],
+        "manufacturer": "AVM",
+        "model": "FRITZ!Box Tracked device",
+        "name": "eufy-RoboVac",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "fe317de7dab7d6d1f52383d8d23d83a4",
+        "via_device_id": "ae5567bf3b433a67e32915e47dd5d164",
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "059a7832e825327dd6bc9197bb60ae5c"
+        ],
+        "connections": [
+          [
+            "zigbee",
+            "7c:b0:3e:aa:0a:08:91:bf"
+          ]
+        ],
+        "identifiers": [
+          [
+            "deconz",
+            "7c:b0:3e:aa:0a:08:91:bf"
+          ]
+        ],
+        "manufacturer": "OSRAM",
+        "model": "Plug 01",
+        "name": "Standing light plug",
+        "sw_version": "V1.05.09",
+        "hw_version": null,
+        "entry_type": null,
+        "id": "5388b903b3bd3280b786dff72821ca3c",
+        "via_device_id": "bb6e31d8a8b3fc04fe11226e7f8ba99d",
+        "area_id": "living_room",
+        "name_by_user": "Standing_lamp_led",
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "3ab254f579fdc1d951562f6cd177fdef"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "icloud",
+            "dYgDxjNDw6CPIvrXHkWMUvzYlVATcSoSi7mxiFvihSk="
+          ]
+        ],
+        "manufacturer": "Apple",
+        "model": "iPhone 11",
+        "name": "iPhone Barney",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "7abd06fe3beb293aa3ef0705a5be3ce1",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "https://icloud.com/"
+      },
+      {
+        "config_entries": [
+          "e6658c216a787f4a46cedfd5978f877c"
+        ],
+        "connections": [
+          [
+            "mac",
+            "7a:66:12:f1:06:2a"
+          ]
+        ],
+        "identifiers": [
+          [
+            "fritz",
+            "7A:66:12:F1:06:2A"
+          ]
+        ],
+        "manufacturer": "AVM",
+        "model": "FRITZ!Box Tracked device",
+        "name": "PC-192-168-179-18",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "b39f699a70730837d2d99fc443aaa417",
+        "via_device_id": "ae5567bf3b433a67e32915e47dd5d164",
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "e6658c216a787f4a46cedfd5978f877c"
+        ],
+        "connections": [
+          [
+            "mac",
+            "86:d1:b8:a0:c5:a1"
+          ]
+        ],
+        "identifiers": [
+          [
+            "fritz",
+            "86:D1:B8:A0:C5:A1"
+          ]
+        ],
+        "manufacturer": "AVM",
+        "model": "FRITZ!Box Tracked device",
+        "name": "PC-192-168-178-27",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "6d428a2bc6352ee75709bcae962a74e6",
+        "via_device_id": "ae5567bf3b433a67e32915e47dd5d164",
+        "area_id": null,
+        "name_by_user": "Sushi-iPhone",
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "059a7832e825327dd6bc9197bb60ae5c"
+        ],
+        "connections": [
+          [
+            "zigbee",
+            "00:15:8d:00:08:30:15:47"
+          ]
+        ],
+        "identifiers": [
+          [
+            "deconz",
+            "00:15:8d:00:08:30:15:47"
+          ]
+        ],
+        "manufacturer": "LUMI",
+        "model": "lumi.weather",
+        "name": "Work_room_temperature",
+        "sw_version": "20191205",
+        "hw_version": null,
+        "entry_type": null,
+        "id": "5475862670e8ea93556339aa3eb7d938",
+        "via_device_id": "bb6e31d8a8b3fc04fe11226e7f8ba99d",
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "e6658c216a787f4a46cedfd5978f877c"
+        ],
+        "connections": [
+          [
+            "mac",
+            "22:37:12:cf:94:c3"
+          ]
+        ],
+        "identifiers": [
+          [
+            "fritz",
+            "22:37:12:CF:94:C3"
+          ]
+        ],
+        "manufacturer": "AVM",
+        "model": "FRITZ!Box Tracked device",
+        "name": "fritz.repeater",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "00c1cbef9363369d1e4f9352398f6e1a",
+        "via_device_id": "ae5567bf3b433a67e32915e47dd5d164",
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "e6658c216a787f4a46cedfd5978f877c"
+        ],
+        "connections": [
+          [
+            "mac",
+            "b6:84:ef:0f:50:69"
+          ]
+        ],
+        "identifiers": [
+          [
+            "fritz",
+            "B6:84:EF:0F:50:69"
+          ]
+        ],
+        "manufacturer": "AVM",
+        "model": "FRITZ!Box Tracked device",
+        "name": "PC-192-168-179-17",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "7bb7122438a7a2eb848cd81dce65e134",
+        "via_device_id": "ae5567bf3b433a67e32915e47dd5d164",
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "76f988fce3469f63f123537b72e26164"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "mobile_app",
+            "8BF1EC96-3544-4236-9F85-015D7ABA238D"
+          ]
+        ],
+        "manufacturer": "Apple",
+        "model": "iPhone13,1",
+        "name": "iPhone",
+        "sw_version": "16.1",
+        "hw_version": null,
+        "entry_type": null,
+        "id": "3c6aba0a46ec579bee1155e066937cf8",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      }
+    ],
+    "deleted_devices": [
+      {
+        "config_entries": [
+          "a4c28214ba09f14169d70379ae378532"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "hassio",
+            "OS"
+          ]
+        ],
+        "id": "85d3d882e4569c2718262a9f9a347a53",
+        "orphaned_timestamp": null
+      },
+      {
+        "config_entries": [],
+        "connections": [],
+        "identifiers": [
+          [
+            "speedtestdotnet",
+            "9cd11170b882c5e3ed04bc19df78a527"
+          ]
+        ],
+        "id": "059dd7845178460ef74d71003b3e4bd7",
+        "orphaned_timestamp": 1665004276.4550812
+      },
+      {
+        "config_entries": [],
+        "connections": [],
+        "identifiers": [
+          [
+            "cpuspeed",
+            "7afd0cf1a1745c1b823e710d058f0140"
+          ]
+        ],
+        "id": "d75abe61f45be819f04a2d15b7b3addb",
+        "orphaned_timestamp": 1665036019.4013019
+      }
+    ]
+  }
+}

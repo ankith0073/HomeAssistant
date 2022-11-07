@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "minor_version": 1,
+  "key": "person",
+  "data": {
+    "items": [
+      {
+        "name": "Barney Home automation",
+        "user_id": "2f47898796894fa7a4e6bd35f7671fa2",
+        "device_trackers": [
+          "device_tracker.iphone_barney",
+          "device_tracker.ipad_barney_2"
+        ],
+        "id": "barney_home_automation"
+      },
+      {
+        "name": "barneykioskview",
+        "device_trackers": [
+          "device_tracker.amazonfirehd7",
+          "device_tracker.iphone"
+        ],
+        "user_id": "e97cbdcdfaab457abdd3ce3fab83f22f",
+        "picture": null,
+        "id": "barneykioskview"
+      }
+    ]
+  }
+}

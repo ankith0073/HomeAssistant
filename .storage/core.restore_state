@@ -1,0 +1,2265 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "core.restore_state",
+  "data": [
+    {
+      "state": {
+        "entity_id": "person.barney_home_automation",
+        "state": "not_home",
+        "attributes": {
+          "editable": false,
+          "id": "barney_home_automation",
+          "latitude": 48.693115234375,
+          "longitude": 9.015468113493279,
+          "gps_accuracy": 35,
+          "source": "device_tracker.ipad_barney_2",
+          "user_id": "2f47898796894fa7a4e6bd35f7671fa2",
+          "friendly_name": "Barney Home automation"
+        },
+        "last_changed": "2022-11-07T18:52:51.251663+00:00",
+        "last_updated": "2022-11-07T18:54:50.582647+00:00",
+        "context": {
+          "id": "01GH9Q3ZPPAMA0RZXG4WA4J4WJ",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "person.barneykioskview",
+        "state": "home",
+        "attributes": {
+          "editable": false,
+          "id": "barneykioskview",
+          "source": "device_tracker.amazonfirehd7",
+          "user_id": "e97cbdcdfaab457abdd3ce3fab83f22f",
+          "friendly_name": "barneykioskview"
+        },
+        "last_changed": "2022-11-07T18:52:51.252246+00:00",
+        "last_updated": "2022-11-07T18:54:50.583370+00:00",
+        "context": {
+          "id": "01GH9Q3ZPQD8J4T849E702V340",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.home_assistant_supervisor_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": true,
+          "installed_version": "2022.10.2",
+          "in_progress": false,
+          "latest_version": "2022.10.2",
+          "release_summary": null,
+          "release_url": "https://github.com/home-assistant/supervisor/releases/tag/2022.10.2",
+          "skipped_version": null,
+          "title": "Home Assistant Supervisor",
+          "entity_picture": "https://brands.home-assistant.io/hassio/icon.png",
+          "friendly_name": "Home Assistant Supervisor Update",
+          "supported_features": 1
+        },
+        "last_changed": "2022-11-07T18:53:59.774635+00:00",
+        "last_updated": "2022-11-07T18:53:59.774635+00:00",
+        "context": {
+          "id": "01GH9Q2E2YBSH8GYM19MDP4WYS",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.home_assistant_core_update",
+        "state": "on",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "2022.9.7",
+          "in_progress": false,
+          "latest_version": "2022.11.1",
+          "release_summary": null,
+          "release_url": "https://www.home-assistant.io/latest-release-notes/",
+          "skipped_version": null,
+          "title": "Home Assistant Core",
+          "entity_picture": "https://brands.home-assistant.io/homeassistant/icon.png",
+          "friendly_name": "Home Assistant Core Update",
+          "supported_features": 11
+        },
+        "last_changed": "2022-11-07T18:53:59.776972+00:00",
+        "last_updated": "2022-11-07T18:53:59.776972+00:00",
+        "context": {
+          "id": "01GH9Q2E30VG80G12MJ2T86WCE",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.file_editor_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": true,
+          "installed_version": "5.4.1",
+          "in_progress": false,
+          "latest_version": "5.4.1",
+          "release_summary": "# Changelog\n\n## 5.4.1\n\n- Bugfix: Disable Ace-internal yaml-linting\n- Disable internal check for new releases\n\n## 5.4.0\n\n- Add Generate UUID menu item\n- Harmonize Home Assistant term\n- Rename Components to integrations\n- Remove images for libraries\n- Updat",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "File editor",
+          "entity_picture": "/api/hassio/addons/core_configurator/icon",
+          "friendly_name": "File editor Update",
+          "supported_features": 25
+        },
+        "last_changed": "2022-11-07T18:53:59.777527+00:00",
+        "last_updated": "2022-11-07T18:53:59.777527+00:00",
+        "context": {
+          "id": "01GH9Q2E31GVK9YB18SQ8N8229",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.check_home_assistant_configuration_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "3.11.0",
+          "in_progress": false,
+          "latest_version": "3.11.0",
+          "release_summary": null,
+          "release_url": null,
+          "skipped_version": null,
+          "title": "Check Home Assistant configuration",
+          "entity_picture": "/api/hassio/addons/core_check_config/icon",
+          "friendly_name": "Check Home Assistant configuration Update",
+          "supported_features": 25
+        },
+        "last_changed": "2022-11-07T18:53:59.777908+00:00",
+        "last_updated": "2022-11-07T18:53:59.777908+00:00",
+        "context": {
+          "id": "01GH9Q2E31JVZHWVQZWG9HP26Y",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.terminal_ssh_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": true,
+          "installed_version": "9.6.1",
+          "in_progress": false,
+          "latest_version": "9.6.1",
+          "release_summary": "# Changelog\n\n## 9.6.1\n\n- Upgrade Home Assistant CLI to 4.21.0\n\n## 9.6.0\n\n**Breaking change**: RSA keys generated using the SHA-1 hash algorithm\nwere disabled by OpenSSH due to a security vulnerability. If you find\nyour RSA key does not work after update y",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "Terminal & SSH",
+          "entity_picture": "/api/hassio/addons/core_ssh/icon",
+          "friendly_name": "Terminal & SSH Update",
+          "supported_features": 25
+        },
+        "last_changed": "2022-11-07T18:53:59.778510+00:00",
+        "last_updated": "2022-11-07T18:53:59.778510+00:00",
+        "context": {
+          "id": "01GH9Q2E32HRB59T0YER57BTV2",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.duck_dns_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": true,
+          "installed_version": "1.15.0",
+          "in_progress": false,
+          "latest_version": "1.15.0",
+          "release_summary": "# Changelog\n\n## 1.15.0\n\n- Use Supervisor API to detect IPv6 host addresses, selectable by interface\n- Split IPv4 and IPv6 updates as duckdns skips v4 detection with v6 present\n- Fix misleading help text regarding IPv6 address autodetection\n- Disable Docke",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "Duck DNS",
+          "entity_picture": "/api/hassio/addons/core_duckdns/icon",
+          "friendly_name": "Duck DNS Update",
+          "supported_features": 25
+        },
+        "last_changed": "2022-11-07T18:53:59.778912+00:00",
+        "last_updated": "2022-11-07T18:53:59.778912+00:00",
+        "context": {
+          "id": "01GH9Q2E32C1DG3J35DJPM3HDV",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.node_red_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": true,
+          "installed_version": "13.5.1",
+          "in_progress": false,
+          "latest_version": "13.5.1",
+          "release_summary": "## What’s changed\n\n## ⬆️ Dependency updates\n\n- ⬆️ Upgrades node-red-contrib-home-assistant-websocket to 0.46.2 @dependabot (#1477)\n",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "Node-RED",
+          "entity_picture": "/api/hassio/addons/a0d7b954_nodered/icon",
+          "friendly_name": "Node-RED Update",
+          "supported_features": 25
+        },
+        "last_changed": "2022-11-07T18:53:59.779219+00:00",
+        "last_updated": "2022-11-07T18:59:03.497425+00:00",
+        "context": {
+          "id": "01GH9QBPP928VVD54VCSQBHXSG",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.spotify_connect_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "0.12.2",
+          "in_progress": false,
+          "latest_version": "0.12.2",
+          "release_summary": null,
+          "release_url": null,
+          "skipped_version": null,
+          "title": "Spotify Connect",
+          "entity_picture": "/api/hassio/addons/a0d7b954_spotify/icon",
+          "friendly_name": "Spotify Connect Update",
+          "supported_features": 25
+        },
+        "last_changed": "2022-11-07T18:53:59.779517+00:00",
+        "last_updated": "2022-11-07T19:09:11.394444+00:00",
+        "context": {
+          "id": "01GH9QY8B2PA6HDK1AWRJD56R2",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.home_panel_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": true,
+          "installed_version": "2.5.0",
+          "in_progress": false,
+          "latest_version": "2.5.0",
+          "release_summary": "## What’s changed\n\n## 📚 Documentation\n\n- 📚 Use new My Home Assistant link format @frenck (#175)\n\n## ⬆️ Dependency updates\n\n- ⬆️ Upgrades add-on base image to 12.0.0 @frenck (#174)\n",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "Home Panel",
+          "entity_picture": "/api/hassio/addons/a0d7b954_home-panel/icon",
+          "friendly_name": "Home Panel Update",
+          "supported_features": 25
+        },
+        "last_changed": "2022-11-07T18:53:59.780065+00:00",
+        "last_updated": "2022-11-07T18:59:03.498020+00:00",
+        "context": {
+          "id": "01GH9QBPPAG5RC0ARW6003914T",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.deconz_update",
+        "state": "on",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "6.16.0",
+          "in_progress": false,
+          "latest_version": "6.17.0",
+          "release_summary": "# Changelog\n\n## 6.17.0\n\n- Bump deCONZ to 2.19.1\n\n#",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "deCONZ",
+          "entity_picture": "/api/hassio/addons/core_deconz/icon",
+          "friendly_name": "deCONZ Update",
+          "supported_features": 25
+        },
+        "last_changed": "2022-11-07T18:53:59.782150+00:00",
+        "last_updated": "2022-11-07T18:53:59.782150+00:00",
+        "context": {
+          "id": "01GH9Q2E36E6BRB457VZYBCPRY",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.adguard_home_update",
+        "state": "on",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "4.7.4",
+          "in_progress": false,
+          "latest_version": "4.7.5",
+          "release_summary": "## What’s changed\n\n## ⬆️ Dependency updates\n\n- ⬆️ Upgrades AdGuard Home to v0.107.14 @AlecRust (#348)\n- ⬆️ Upgrades AdGuard Home to v0.107.16 @AlecRust (#351)\n- ⬆️ Upgrades add-on base image to 12.2.5 @frenck (#357)\n- ⬆️ Upgrades AdGuard Home to v0.107.17",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "AdGuard Home",
+          "entity_picture": "/api/hassio/addons/a0d7b954_adguard/icon",
+          "friendly_name": "AdGuard Home Update",
+          "supported_features": 25
+        },
+        "last_changed": "2022-11-07T18:53:59.782882+00:00",
+        "last_updated": "2022-11-07T18:53:59.782882+00:00",
+        "context": {
+          "id": "01GH9Q2E364F6N7JR42EEK4NNY",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.appdaemon_update",
+        "state": "on",
+        "attributes": {
+          "auto_update": true,
+          "installed_version": "0.9.3",
+          "in_progress": false,
+          "latest_version": "0.10.0",
+          "release_summary": "## What’s changed\n\n## ✨ New features\n\n- ✨ Add access to media folder @jmarsik (#211)\n\n## ⬆️ Dependency updates\n\n- ⬆️ Upgrades add-on base image to 12.2.5 @frenck (#213)\n- ⬆️ Upgrades add-on base image to 12.2.6 @frenck (#215)\n",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "AppDaemon",
+          "entity_picture": "/api/hassio/addons/a0d7b954_appdaemon/icon",
+          "friendly_name": "AppDaemon Update",
+          "supported_features": 25
+        },
+        "last_changed": "2022-11-07T18:53:59.783533+00:00",
+        "last_updated": "2022-11-07T18:59:03.499251+00:00",
+        "context": {
+          "id": "01GH9QBPPBDFZ2RB2X2A5KGZ4P",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.influxdb_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": true,
+          "installed_version": "4.5.0",
+          "in_progress": false,
+          "latest_version": "4.5.0",
+          "release_summary": "## What’s changed\n\n## 📚 Documentation\n\n- 📚 Use new My Home Assistant link format @frenck (#249)\n\n## ⬆️ Dependency updates\n\n- ⬆️ Upgrades add-on base image to 6.0.0 @frenck (#248)\n",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "InfluxDB",
+          "entity_picture": "/api/hassio/addons/a0d7b954_influxdb/icon",
+          "friendly_name": "InfluxDB Update",
+          "supported_features": 25
+        },
+        "last_changed": "2022-11-07T18:53:59.783869+00:00",
+        "last_updated": "2022-11-07T18:53:59.783869+00:00",
+        "context": {
+          "id": "01GH9Q2E37T65WVBA5BVX09HP4",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.grafana_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": true,
+          "installed_version": "8.0.2",
+          "in_progress": false,
+          "latest_version": "8.0.2",
+          "release_summary": "## What’s changed\n\n## ⬆️ Dependency updates\n\n- ⬆️ Upgrades Grafana to v9.1.6 @frenck (#280)\n",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "Grafana",
+          "entity_picture": "/api/hassio/addons/a0d7b954_grafana/icon",
+          "friendly_name": "Grafana Update",
+          "supported_features": 25
+        },
+        "last_changed": "2022-11-07T18:53:59.784169+00:00",
+        "last_updated": "2022-11-07T18:53:59.784169+00:00",
+        "context": {
+          "id": "01GH9Q2E3899B99WFBAVAZC92Y",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.turn_on_lamp_at_sunset",
+        "state": "off",
+        "attributes": {
+          "last_triggered": "2022-09-13T19:45:00.001714+00:00",
+          "mode": "single",
+          "current": 0,
+          "id": "1644953565537",
+          "friendly_name": "Turn on Bedroom lamp at 21.45"
+        },
+        "last_changed": "2022-11-07T18:54:14.218438+00:00",
+        "last_updated": "2022-11-07T18:54:14.218438+00:00",
+        "context": {
+          "id": "01GH9Q2W6AENKYPGT92CQM1REV",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.turn_off_lamp_at_23_00",
+        "state": "off",
+        "attributes": {
+          "last_triggered": "2022-11-01T00:00:00.002469+00:00",
+          "mode": "single",
+          "current": 0,
+          "id": "1644953760115",
+          "friendly_name": "Turn off Bedroom Lamp at 01:00am"
+        },
+        "last_changed": "2022-11-07T18:54:14.219289+00:00",
+        "last_updated": "2022-11-07T18:54:14.219289+00:00",
+        "context": {
+          "id": "01GH9Q2W6B4SMPZSMR02ZXPESP",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.workroom_led_on_evenings",
+        "state": "off",
+        "attributes": {
+          "last_triggered": "2022-09-13T20:24:38.664633+00:00",
+          "mode": "single",
+          "current": 0,
+          "id": "1646168522631",
+          "friendly_name": "Workroom LEd on evenings"
+        },
+        "last_changed": "2022-11-07T18:54:14.219927+00:00",
+        "last_updated": "2022-11-07T18:54:14.219927+00:00",
+        "context": {
+          "id": "01GH9Q2W6BNE960FKT043T7PF8",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.humidifier",
+        "state": "off",
+        "attributes": {
+          "last_triggered": "2022-09-14T16:00:00.004857+00:00",
+          "mode": "single",
+          "current": 0,
+          "id": "1646169708365",
+          "friendly_name": "Humidifier On at 18.00"
+        },
+        "last_changed": "2022-11-07T18:54:14.220537+00:00",
+        "last_updated": "2022-11-07T18:54:14.220537+00:00",
+        "context": {
+          "id": "01GH9Q2W6CR4FVZ7KMQ3BBRVTG",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.humidifier_off_at_20_00",
+        "state": "off",
+        "attributes": {
+          "last_triggered": "2022-09-13T18:00:00.002625+00:00",
+          "mode": "single",
+          "current": 0,
+          "id": "1646169801609",
+          "friendly_name": "Humidifier off at 20.00 "
+        },
+        "last_changed": "2022-11-07T18:54:14.221185+00:00",
+        "last_updated": "2022-11-07T18:54:14.221185+00:00",
+        "context": {
+          "id": "01GH9Q2W6D62HZ12PRCMQZ6WJN",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.workroom_led_turn_off",
+        "state": "off",
+        "attributes": {
+          "last_triggered": null,
+          "mode": "single",
+          "current": 0,
+          "id": "1646254135317",
+          "friendly_name": "workroom LED turn off "
+        },
+        "last_changed": "2022-11-07T18:54:14.221726+00:00",
+        "last_updated": "2022-11-07T18:54:14.221726+00:00",
+        "context": {
+          "id": "01GH9Q2W6DFKY8V4H2TYMQMT2Z",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.workroom_led_strip_off",
+        "state": "off",
+        "attributes": {
+          "last_triggered": "2022-09-13T20:26:08.722680+00:00",
+          "mode": "single",
+          "current": 0,
+          "id": "1646254231591",
+          "friendly_name": "workroom LED strip off "
+        },
+        "last_changed": "2022-11-07T18:54:14.222431+00:00",
+        "last_updated": "2022-11-07T18:54:14.222431+00:00",
+        "context": {
+          "id": "01GH9Q2W6EC01GWD78CBWGWFJA",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.turn_on_bed_room_light_movement_detected",
+        "state": "off",
+        "attributes": {
+          "last_triggered": "2022-09-05T19:42:19.923765+00:00",
+          "mode": "single",
+          "current": 0,
+          "id": "1646851942697",
+          "friendly_name": "turn on bed room light movement detected "
+        },
+        "last_changed": "2022-11-07T18:54:14.223489+00:00",
+        "last_updated": "2022-11-07T18:54:14.223489+00:00",
+        "context": {
+          "id": "01GH9Q2W6FX09E7DHCK9GVKTZ3",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.turn_off_bedroom_light_when_no_movment",
+        "state": "off",
+        "attributes": {
+          "last_triggered": "2022-09-15T18:24:31.020502+00:00",
+          "mode": "single",
+          "current": 0,
+          "id": "1646852041780",
+          "friendly_name": "turn off bedroom light when no movment "
+        },
+        "last_changed": "2022-11-07T18:54:14.224219+00:00",
+        "last_updated": "2022-11-07T18:54:14.224219+00:00",
+        "context": {
+          "id": "01GH9Q2W6G4HQQH4HQTCSAQ53V",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.new_automation",
+        "state": "off",
+        "attributes": {
+          "last_triggered": "2022-09-07T21:00:00.007323+00:00",
+          "mode": "single",
+          "current": 0,
+          "id": "1648448638172",
+          "friendly_name": "Turn off retro lights at 23.00 if they are on "
+        },
+        "last_changed": "2022-11-07T18:54:14.225468+00:00",
+        "last_updated": "2022-11-07T18:54:14.225468+00:00",
+        "context": {
+          "id": "01GH9Q2W6H1RY77EQ6PKZ2HYC8",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.retro_lights_evening",
+        "state": "off",
+        "attributes": {
+          "last_triggered": "2022-09-13T17:41:01.262281+00:00",
+          "mode": "single",
+          "current": 0,
+          "id": "1648576094911",
+          "friendly_name": "Retro lights evening "
+        },
+        "last_changed": "2022-11-07T18:54:14.226121+00:00",
+        "last_updated": "2022-11-07T18:54:14.226121+00:00",
+        "context": {
+          "id": "01GH9Q2W6JGCAY4M6SG2NVA4VE",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.sonos_snapshot_when_tv_turns_on",
+        "state": "off",
+        "attributes": {
+          "last_triggered": "2022-11-01T14:30:10.529875+00:00",
+          "mode": "single",
+          "current": 0,
+          "id": "1662289656428",
+          "friendly_name": "Sonos Snapshot when TV turns on "
+        },
+        "last_changed": "2022-11-07T18:54:14.226699+00:00",
+        "last_updated": "2022-11-07T18:54:14.226699+00:00",
+        "context": {
+          "id": "01GH9Q2W6JF97H2SG65S6KTY3Z",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.sonos_restore_snapshot_when_tv_turns_off",
+        "state": "off",
+        "attributes": {
+          "last_triggered": "2022-11-01T14:33:23.582346+00:00",
+          "mode": "single",
+          "current": 0,
+          "id": "1662289737477",
+          "friendly_name": "Sonos restore snapshot when TV turns off"
+        },
+        "last_changed": "2022-11-07T18:54:14.227483+00:00",
+        "last_updated": "2022-11-07T18:54:14.227483+00:00",
+        "context": {
+          "id": "01GH9Q2W6K1PE81Q3366J716X0",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.sonos_music_from_18_00_hrs",
+        "state": "off",
+        "attributes": {
+          "last_triggered": "2022-09-14T16:00:00.003608+00:00",
+          "mode": "single",
+          "current": 0,
+          "id": "1662497140735",
+          "friendly_name": "Sonos music from 18.00 hrs "
+        },
+        "last_changed": "2022-11-07T18:54:14.228277+00:00",
+        "last_updated": "2022-11-07T18:54:14.228277+00:00",
+        "context": {
+          "id": "01GH9Q2W6MS5AYPCKBGX040G1N",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.sonos_stop_playing_at_23_00_hrs",
+        "state": "off",
+        "attributes": {
+          "last_triggered": "2022-09-13T21:00:00.001830+00:00",
+          "mode": "single",
+          "current": 0,
+          "id": "1662497246842",
+          "friendly_name": "Sonos stop playing at 23.00 hrs "
+        },
+        "last_changed": "2022-11-07T18:54:14.229036+00:00",
+        "last_updated": "2022-11-07T18:54:14.229036+00:00",
+        "context": {
+          "id": "01GH9Q2W6NCMQTS59MQF75A08K",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.speedtest_ping",
+        "state": "22",
+        "attributes": {
+          "state_class": "measurement",
+          "server_name": "Frankfurt Am Main",
+          "server_country": "Germany",
+          "server_id": "44081",
+          "unit_of_measurement": "ms",
+          "attribution": "Data retrieved from Speedtest.net by Ookla",
+          "icon": "mdi:speedometer",
+          "friendly_name": "SpeedTest Ping"
+        },
+        "last_changed": "2022-11-07T18:55:15.465118+00:00",
+        "last_updated": "2022-11-07T18:55:15.465118+00:00",
+        "context": {
+          "id": "01GH9Q4R09CWRJV2BC8Q196VT5",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.speedtest_download",
+        "state": "239.7",
+        "attributes": {
+          "state_class": "measurement",
+          "server_name": "Frankfurt Am Main",
+          "server_country": "Germany",
+          "server_id": "44081",
+          "bytes_received": 301464705,
+          "unit_of_measurement": "Mbit/s",
+          "attribution": "Data retrieved from Speedtest.net by Ookla",
+          "icon": "mdi:speedometer",
+          "friendly_name": "SpeedTest Download"
+        },
+        "last_changed": "2022-11-07T18:55:15.465905+00:00",
+        "last_updated": "2022-11-07T18:55:15.465905+00:00",
+        "context": {
+          "id": "01GH9Q4R09WPVZ4J93KJT70TWA",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.speedtest_upload",
+        "state": "40.25",
+        "attributes": {
+          "state_class": "measurement",
+          "server_name": "Frankfurt Am Main",
+          "server_country": "Germany",
+          "server_id": "44081",
+          "bytes_sent": 50757632,
+          "unit_of_measurement": "Mbit/s",
+          "attribution": "Data retrieved from Speedtest.net by Ookla",
+          "icon": "mdi:speedometer",
+          "friendly_name": "SpeedTest Upload"
+        },
+        "last_changed": "2022-11-07T18:55:15.466357+00:00",
+        "last_updated": "2022-11-07T18:55:15.466357+00:00",
+        "context": {
+          "id": "01GH9Q4R0AEV03QKZN2Z8BBTYA",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_barney_activity",
+        "state": "Unknown",
+        "attributes": {
+          "Confidence": "High",
+          "Types": [
+            "Unknown"
+          ],
+          "icon": "mdi:help-circle",
+          "friendly_name": "iPhone Barney  Activity"
+        },
+        "last_changed": "2022-11-07T19:24:24.835151+00:00",
+        "last_updated": "2022-11-07T19:24:24.835151+00:00",
+        "context": {
+          "id": "01GH9RT4C387SA5Q32984ZHM8X",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Unknown",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_barney_battery_level",
+        "state": "63",
+        "attributes": {
+          "unit_of_measurement": "%",
+          "device_class": "battery",
+          "icon": "mdi:battery-60",
+          "friendly_name": "iPhone Barney  Battery Level"
+        },
+        "last_changed": "2022-11-07T19:15:12.662470+00:00",
+        "last_updated": "2022-11-07T19:15:12.662470+00:00",
+        "context": {
+          "id": "01GH9R994PNZXDEBTT8QWJEVVG",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": 63,
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_barney_battery_state",
+        "state": "Not Charging",
+        "attributes": {
+          "Low Power Mode": false,
+          "icon": "mdi:battery-60",
+          "friendly_name": "iPhone Barney  Battery State"
+        },
+        "last_changed": "2022-11-07T18:54:47.699144+00:00",
+        "last_updated": "2022-11-07T18:54:47.699144+00:00",
+        "context": {
+          "id": "01GH9Q3WWKHBS0KY4V4SS2YR7V",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Not Charging",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_barney_storage",
+        "state": "1.05",
+        "attributes": {
+          "Available": "1,56 GB",
+          "Available (Important)": "3,06 GB",
+          "Available (Opportunistic)": "671,2 MB",
+          "Total": "63,93 GB",
+          "unit_of_measurement": "% available",
+          "icon": "mdi:database",
+          "friendly_name": "iPhone Barney  Storage"
+        },
+        "last_changed": "2022-11-07T19:15:12.663541+00:00",
+        "last_updated": "2022-11-07T19:34:32.941472+00:00",
+        "context": {
+          "id": "01GH9SCP7D22X5X0FY86Z6NXFF",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "1.05",
+        "native_unit_of_measurement": "% available"
+      },
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_barney_ssid",
+        "state": "Not Connected",
+        "attributes": {
+          "icon": "mdi:wifi-off",
+          "friendly_name": "iPhone Barney  SSID"
+        },
+        "last_changed": "2022-11-07T19:15:12.667191+00:00",
+        "last_updated": "2022-11-07T19:15:12.667191+00:00",
+        "context": {
+          "id": "01GH9R994VKJZ8BXFG41PY2HY2",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Not Connected",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_barney_bssid",
+        "state": "Not Connected",
+        "attributes": {
+          "icon": "mdi:wifi-off",
+          "friendly_name": "iPhone Barney  BSSID"
+        },
+        "last_changed": "2022-11-07T19:15:12.667914+00:00",
+        "last_updated": "2022-11-07T19:15:12.667914+00:00",
+        "context": {
+          "id": "01GH9R994VT9JEPR21R6H7AHY9",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Not Connected",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_barney_connection_type",
+        "state": "Wi-Fi",
+        "attributes": {
+          "icon": "mdi:wifi",
+          "friendly_name": "iPhone Barney  Connection Type"
+        },
+        "last_changed": "2022-11-07T18:54:47.701770+00:00",
+        "last_updated": "2022-11-07T18:54:47.701770+00:00",
+        "context": {
+          "id": "01GH9Q3WWNEVAZVBDQ18TXGT0G",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Wi-Fi",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_barney_sim_1",
+        "state": "o2-de",
+        "attributes": {
+          "Allows VoIP": true,
+          "Carrier ID": "0000000100000001",
+          "Carrier Name": "o2-de",
+          "Current Radio Technology": "Long-Term Evolution (LTE)",
+          "ISO Country Code": "de",
+          "Mobile Country Code": "262",
+          "Mobile Network Code": "07",
+          "icon": "mdi:sim",
+          "friendly_name": "iPhone Barney  SIM 1"
+        },
+        "last_changed": "2022-11-07T18:54:47.702504+00:00",
+        "last_updated": "2022-11-07T18:54:47.702504+00:00",
+        "context": {
+          "id": "01GH9Q3WWPS1ZKPM9PER0JM1RQ",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "o2-de",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_barney_sim_2",
+        "state": "N/A",
+        "attributes": {
+          "Allows VoIP": true,
+          "Carrier ID": "0000000100000002",
+          "Carrier Name": "N/A",
+          "ISO Country Code": "N/A",
+          "Mobile Country Code": "N/A",
+          "Mobile Network Code": "N/A",
+          "icon": "mdi:sim",
+          "friendly_name": "iPhone Barney  SIM 2"
+        },
+        "last_changed": "2022-11-07T18:54:47.703254+00:00",
+        "last_updated": "2022-11-07T18:54:47.703254+00:00",
+        "context": {
+          "id": "01GH9Q3WWQ6K2JJPQA3QP8PF93",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "N/A",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_barney_geocoded_location",
+        "state": "Fichtestraße 15\n71032 Böblingen\nGermany",
+        "attributes": {
+          "Administrative Area": "Baden-Württemberg",
+          "Areas Of Interest": "N/A",
+          "Country": "Germany",
+          "Inland Water": "N/A",
+          "ISO Country Code": "DE",
+          "Locality": "Böblingen",
+          "Location": [
+            48.693145751953125,
+            9.015496632094836
+          ],
+          "Name": "Fichtestraße 15",
+          "Ocean": "N/A",
+          "Postal Code": "71032",
+          "Sub Administrative Area": "Böblingen",
+          "Sub Locality": "Böblingen",
+          "Sub Thoroughfare": "15",
+          "Thoroughfare": "Fichtestraße",
+          "Time Zone": "Europe/Berlin",
+          "Zones": [],
+          "icon": "mdi:map",
+          "friendly_name": "iPhone Barney  Geocoded Location"
+        },
+        "last_changed": "2022-11-07T18:54:47.703918+00:00",
+        "last_updated": "2022-11-07T18:54:47.703918+00:00",
+        "context": {
+          "id": "01GH9Q3WWQ9ZYFXEVW3JDGK43E",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Fichtestraße 15\n71032 Böblingen\nGermany",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_barney_last_update_trigger",
+        "state": "Background Fetch",
+        "attributes": {
+          "icon": "mdi:cellphone-wireless",
+          "friendly_name": "iPhone Barney  Last Update Trigger"
+        },
+        "last_changed": "2022-11-07T19:15:12.670483+00:00",
+        "last_updated": "2022-11-07T19:15:12.670483+00:00",
+        "context": {
+          "id": "01GH9R994YFGN6V5CH4R42BXH6",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Background Fetch",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_barney_distance",
+        "state": "2084",
+        "attributes": {
+          "unit_of_measurement": "m",
+          "icon": "mdi:hiking",
+          "friendly_name": "iPhone Barney  Distance"
+        },
+        "last_changed": "2022-11-07T19:15:12.659593+00:00",
+        "last_updated": "2022-11-07T19:15:12.659593+00:00",
+        "context": {
+          "id": "01GH9R994KMEY08YVMG2ZRKN4B",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": 2084,
+        "native_unit_of_measurement": "m"
+      },
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_barney_floors_ascended",
+        "state": "0",
+        "attributes": {
+          "unit_of_measurement": "floors",
+          "icon": "mdi:stairs-up",
+          "friendly_name": "iPhone Barney  Floors Ascended"
+        },
+        "last_changed": "2022-11-07T18:54:47.706253+00:00",
+        "last_updated": "2022-11-07T18:54:47.706253+00:00",
+        "context": {
+          "id": "01GH9Q3WWT6S478Y1V5KP2NM0Y",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": 0,
+        "native_unit_of_measurement": "floors"
+      },
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_barney_floors_descended",
+        "state": "5",
+        "attributes": {
+          "unit_of_measurement": "floors",
+          "icon": "mdi:stairs-down",
+          "friendly_name": "iPhone Barney  Floors Descended"
+        },
+        "last_changed": "2022-11-07T18:54:47.706923+00:00",
+        "last_updated": "2022-11-07T18:54:47.706923+00:00",
+        "context": {
+          "id": "01GH9Q3WWTVQ8ZJRBE600PP3YG",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": 5,
+        "native_unit_of_measurement": "floors"
+      },
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_barney_steps",
+        "state": "3160",
+        "attributes": {
+          "unit_of_measurement": "steps",
+          "icon": "mdi:walk",
+          "friendly_name": "iPhone Barney  Steps"
+        },
+        "last_changed": "2022-11-07T19:15:12.660865+00:00",
+        "last_updated": "2022-11-07T19:15:12.660865+00:00",
+        "context": {
+          "id": "01GH9R994M4VKJ0WQJ06SQES2W",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": 3160,
+        "native_unit_of_measurement": "steps"
+      },
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_barney_average_active_pace",
+        "state": "1",
+        "attributes": {
+          "unit_of_measurement": "m/s",
+          "icon": "mdi:speedometer",
+          "friendly_name": "iPhone Barney  Average Active Pace"
+        },
+        "last_changed": "2022-11-07T18:54:47.707893+00:00",
+        "last_updated": "2022-11-07T18:54:47.707893+00:00",
+        "context": {
+          "id": "01GH9Q3WWVG3Z636DFK8YD0TVM",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": 1,
+        "native_unit_of_measurement": "m/s"
+      },
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "binary_sensor.iphone_barney_focus",
+        "state": "off",
+        "attributes": {
+          "icon": "mdi:moon-waning-crescent",
+          "friendly_name": "iPhone Barney  Focus"
+        },
+        "last_changed": "2022-11-07T18:54:47.708254+00:00",
+        "last_updated": "2022-11-07T18:54:47.708254+00:00",
+        "context": {
+          "id": "01GH9Q3WWW68QBWN8TNKXDYPTW",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "device_tracker.iphone_barney",
+        "state": "not_home",
+        "attributes": {
+          "source_type": "gps",
+          "battery_level": 52,
+          "latitude": 48.693145751953125,
+          "longitude": 9.015496632094836,
+          "gps_accuracy": 35,
+          "altitude": 442.46944427490234,
+          "vertical_accuracy": 28.882810592651367,
+          "friendly_name": "iPhone Barney "
+        },
+        "last_changed": "2022-11-07T18:54:47.709356+00:00",
+        "last_updated": "2022-11-07T18:54:47.709356+00:00",
+        "context": {
+          "id": "01GH9Q3WWXTZCH5KVWQ4MAZFMS",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.ipad_barney_battery_level",
+        "state": "23",
+        "attributes": {
+          "unit_of_measurement": "%",
+          "device_class": "battery",
+          "icon": "mdi:battery-20",
+          "friendly_name": "Ipad Barney Battery Level"
+        },
+        "last_changed": "2022-11-07T18:54:47.710070+00:00",
+        "last_updated": "2022-11-07T18:54:47.710070+00:00",
+        "context": {
+          "id": "01GH9Q3WWY0C4EDJEYT8A2ZHXV",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": 23,
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.ipad_barney_geocoded_location",
+        "state": "unknown",
+        "attributes": {
+          "Administrative Area": "Baden-Württemberg",
+          "Areas Of Interest": "N/A",
+          "Country": "Germany",
+          "Inland Water": "N/A",
+          "ISO Country Code": "DE",
+          "Locality": "Böblingen",
+          "Location": [
+            48.693115234375,
+            9.015468113493279
+          ],
+          "Name": "Fichtestraße 15",
+          "Ocean": "N/A",
+          "Postal Code": "71032",
+          "Sub Administrative Area": "Böblingen",
+          "Sub Locality": "N/A",
+          "Sub Thoroughfare": "15",
+          "Thoroughfare": "Fichtestraße",
+          "Time Zone": "Europe/Berlin",
+          "Zones": [],
+          "icon": "mdi:map",
+          "friendly_name": "Ipad Barney Geocoded Location"
+        },
+        "last_changed": "2022-11-07T18:54:47.710836+00:00",
+        "last_updated": "2022-11-07T18:54:47.710836+00:00",
+        "context": {
+          "id": "01GH9Q3WWYV95GKDWAHCTT5V4V",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": null,
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.ipad_barney_last_update_trigger",
+        "state": "Background Fetch",
+        "attributes": {
+          "icon": "mdi:cellphone-wireless",
+          "friendly_name": "Ipad Barney Last Update Trigger"
+        },
+        "last_changed": "2022-11-07T18:54:47.712218+00:00",
+        "last_updated": "2022-11-07T18:54:47.712218+00:00",
+        "context": {
+          "id": "01GH9Q3WX02S0CTGYJV75YMJMG",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Background Fetch",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.ipad_barney_battery_state",
+        "state": "Not Charging",
+        "attributes": {
+          "Low Power Mode": false,
+          "icon": "mdi:battery-20",
+          "friendly_name": "Ipad Barney Battery State"
+        },
+        "last_changed": "2022-11-07T18:54:47.713135+00:00",
+        "last_updated": "2022-11-07T18:54:47.713135+00:00",
+        "context": {
+          "id": "01GH9Q3WX19KH6KA0S5CYJFGP2",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Not Charging",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.ipad_barney_storage",
+        "state": "74.95",
+        "attributes": {
+          "Available": "95.60 GB",
+          "Available (Important)": "98.17 GB",
+          "Available (Opportunistic)": "95.89 GB",
+          "Total": "127.94 GB",
+          "unit_of_measurement": "% available",
+          "icon": "mdi:database",
+          "friendly_name": "Ipad Barney Storage"
+        },
+        "last_changed": "2022-11-07T18:54:47.714151+00:00",
+        "last_updated": "2022-11-07T18:54:47.714151+00:00",
+        "context": {
+          "id": "01GH9Q3WX2TSADZGEWYVFYDHNW",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "74.95",
+        "native_unit_of_measurement": "% available"
+      },
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.ipad_barney_bssid",
+        "state": "Not Connected",
+        "attributes": {
+          "icon": "mdi:wifi-off",
+          "friendly_name": "Ipad Barney BSSID"
+        },
+        "last_changed": "2022-11-07T18:54:47.715083+00:00",
+        "last_updated": "2022-11-07T18:54:47.715083+00:00",
+        "context": {
+          "id": "01GH9Q3WX33YZDDFM18BZTMGC9",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Not Connected",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.ipad_barney_connection_type",
+        "state": "Wi-Fi",
+        "attributes": {
+          "icon": "mdi:wifi",
+          "friendly_name": "Ipad Barney Connection Type"
+        },
+        "last_changed": "2022-11-07T18:54:47.715731+00:00",
+        "last_updated": "2022-11-07T18:54:47.715731+00:00",
+        "context": {
+          "id": "01GH9Q3WX3H3GWM0RV3217GW1C",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Wi-Fi",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.ipad_barney_ssid",
+        "state": "Not Connected",
+        "attributes": {
+          "icon": "mdi:wifi-off",
+          "friendly_name": "Ipad Barney SSID"
+        },
+        "last_changed": "2022-11-07T18:54:47.716488+00:00",
+        "last_updated": "2022-11-07T18:54:47.716488+00:00",
+        "context": {
+          "id": "01GH9Q3WX4GWFDW1JDNVRXV0VT",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Not Connected",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "device_tracker.ipad_barney_2",
+        "state": "not_home",
+        "attributes": {
+          "source_type": "gps",
+          "battery_level": 2,
+          "latitude": 48.693115234375,
+          "longitude": 9.015468113493279,
+          "gps_accuracy": 35,
+          "altitude": 443.25100326538086,
+          "vertical_accuracy": 12.247467041015625,
+          "friendly_name": "Ipad Barney"
+        },
+        "last_changed": "2022-11-07T18:54:47.717225+00:00",
+        "last_updated": "2022-11-07T18:54:47.717225+00:00",
+        "context": {
+          "id": "01GH9Q3WX549Q6WGC5BGDCTJE0",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_battery_level",
+        "state": "56",
+        "attributes": {
+          "unit_of_measurement": "%",
+          "device_class": "battery",
+          "icon": "mdi:battery-50",
+          "friendly_name": "iPhone Battery Level"
+        },
+        "last_changed": "2022-11-07T18:54:47.717717+00:00",
+        "last_updated": "2022-11-07T18:54:47.717717+00:00",
+        "context": {
+          "id": "01GH9Q3WX5B5N4MWKDFP9WF3XW",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": 56,
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_sim_1",
+        "state": "Vodafone.de",
+        "attributes": {
+          "Allows VoIP": true,
+          "Carrier ID": "0000000100000001",
+          "Carrier Name": "Vodafone.de",
+          "Current Radio Technology": "Long-Term Evolution (LTE)",
+          "ISO Country Code": "de",
+          "Mobile Country Code": "262",
+          "Mobile Network Code": "02",
+          "icon": "mdi:sim",
+          "friendly_name": "iPhone SIM 1"
+        },
+        "last_changed": "2022-11-07T18:54:47.718112+00:00",
+        "last_updated": "2022-11-07T18:54:47.718112+00:00",
+        "context": {
+          "id": "01GH9Q3WX6RG1KGK0E91032EEG",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Vodafone.de",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_sim_2",
+        "state": "N/A",
+        "attributes": {
+          "Allows VoIP": true,
+          "Carrier ID": "0000000100000002",
+          "Carrier Name": "N/A",
+          "ISO Country Code": "N/A",
+          "Mobile Country Code": "N/A",
+          "Mobile Network Code": "N/A",
+          "icon": "mdi:sim",
+          "friendly_name": "iPhone SIM 2"
+        },
+        "last_changed": "2022-11-07T18:54:47.718500+00:00",
+        "last_updated": "2022-11-07T18:54:47.718500+00:00",
+        "context": {
+          "id": "01GH9Q3WX63G8K5SHDT1AV2CZN",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "N/A",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_geocoded_location",
+        "state": "Unknown",
+        "attributes": {
+          "icon": "mdi:map",
+          "friendly_name": "iPhone Geocoded Location"
+        },
+        "last_changed": "2022-11-07T18:54:47.718927+00:00",
+        "last_updated": "2022-11-07T18:54:47.718927+00:00",
+        "context": {
+          "id": "01GH9Q3WX6PJTVTGY521QWRKJ0",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Unknown",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_last_update_trigger",
+        "state": "Launch",
+        "attributes": {
+          "icon": "mdi:cellphone-wireless",
+          "friendly_name": "iPhone Last Update Trigger"
+        },
+        "last_changed": "2022-11-07T18:54:47.719315+00:00",
+        "last_updated": "2022-11-07T18:54:47.719315+00:00",
+        "context": {
+          "id": "01GH9Q3WX7983B06YZ1STM9VMW",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Launch",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_battery_state",
+        "state": "Not Charging",
+        "attributes": {
+          "Low Power Mode": true,
+          "icon": "mdi:battery-50",
+          "friendly_name": "iPhone Battery State"
+        },
+        "last_changed": "2022-11-07T18:54:47.719742+00:00",
+        "last_updated": "2022-11-07T18:54:47.719742+00:00",
+        "context": {
+          "id": "01GH9Q3WX7W555WM3MYY2J199J",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Not Charging",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_bssid",
+        "state": "Not Connected",
+        "attributes": {
+          "icon": "mdi:wifi-off",
+          "friendly_name": "iPhone BSSID"
+        },
+        "last_changed": "2022-11-07T18:54:47.720222+00:00",
+        "last_updated": "2022-11-07T18:54:47.720222+00:00",
+        "context": {
+          "id": "01GH9Q3WX8YEECPR219RVWEKTC",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Not Connected",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_storage",
+        "state": "16.17",
+        "attributes": {
+          "Available": "9,77 GB",
+          "Available (Important)": "15,00 GB",
+          "Available (Opportunistic)": "10,33 GB",
+          "Total": "63,87 GB",
+          "unit_of_measurement": "% available",
+          "icon": "mdi:database",
+          "friendly_name": "iPhone Storage"
+        },
+        "last_changed": "2022-11-07T18:54:47.720652+00:00",
+        "last_updated": "2022-11-07T18:54:47.720652+00:00",
+        "context": {
+          "id": "01GH9Q3WX8TTJBCY71KHJ8GEXY",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "16.17",
+        "native_unit_of_measurement": "% available"
+      },
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_connection_type",
+        "state": "Wi-Fi",
+        "attributes": {
+          "icon": "mdi:wifi",
+          "friendly_name": "iPhone Connection Type"
+        },
+        "last_changed": "2022-11-07T18:54:47.721208+00:00",
+        "last_updated": "2022-11-07T18:54:47.721208+00:00",
+        "context": {
+          "id": "01GH9Q3WX992CCEDZTQBJW7RHS",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Wi-Fi",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_ssid",
+        "state": "Not Connected",
+        "attributes": {
+          "icon": "mdi:wifi-off",
+          "friendly_name": "iPhone SSID"
+        },
+        "last_changed": "2022-11-07T18:54:47.721717+00:00",
+        "last_updated": "2022-11-07T18:54:47.721717+00:00",
+        "context": {
+          "id": "01GH9Q3WX9T17VH8B0N8YQJYRZ",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Not Connected",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_activity",
+        "state": "Unknown",
+        "attributes": {
+          "Confidence": "High",
+          "Types": [
+            "Unknown"
+          ],
+          "icon": "mdi:help-circle",
+          "friendly_name": "iPhone Activity"
+        },
+        "last_changed": "2022-11-07T18:54:47.722123+00:00",
+        "last_updated": "2022-11-07T18:54:47.722123+00:00",
+        "context": {
+          "id": "01GH9Q3WXAYG761Q7FFJXG9Y88",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Unknown",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_floors_descended",
+        "state": "0",
+        "attributes": {
+          "unit_of_measurement": "floors",
+          "icon": "mdi:stairs-down",
+          "friendly_name": "iPhone Floors Descended"
+        },
+        "last_changed": "2022-11-07T18:54:47.722604+00:00",
+        "last_updated": "2022-11-07T18:54:47.722604+00:00",
+        "context": {
+          "id": "01GH9Q3WXA1MRM1NFXM1KT0N23",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": 0,
+        "native_unit_of_measurement": "floors"
+      },
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_distance",
+        "state": "29",
+        "attributes": {
+          "unit_of_measurement": "m",
+          "icon": "mdi:hiking",
+          "friendly_name": "iPhone Distance"
+        },
+        "last_changed": "2022-11-07T18:54:47.723307+00:00",
+        "last_updated": "2022-11-07T18:54:47.723307+00:00",
+        "context": {
+          "id": "01GH9Q3WXB7Y49RMPGK045TNKR",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": 29,
+        "native_unit_of_measurement": "m"
+      },
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_floors_ascended",
+        "state": "0",
+        "attributes": {
+          "unit_of_measurement": "floors",
+          "icon": "mdi:stairs-up",
+          "friendly_name": "iPhone Floors Ascended"
+        },
+        "last_changed": "2022-11-07T18:54:47.723757+00:00",
+        "last_updated": "2022-11-07T18:54:47.723757+00:00",
+        "context": {
+          "id": "01GH9Q3WXB5NZYT866J4G5442F",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": 0,
+        "native_unit_of_measurement": "floors"
+      },
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_steps",
+        "state": "43",
+        "attributes": {
+          "unit_of_measurement": "steps",
+          "icon": "mdi:walk",
+          "friendly_name": "iPhone Steps"
+        },
+        "last_changed": "2022-11-07T18:54:47.724205+00:00",
+        "last_updated": "2022-11-07T18:54:47.724205+00:00",
+        "context": {
+          "id": "01GH9Q3WXCTKE3663MB7DNEV0V",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": 43,
+        "native_unit_of_measurement": "steps"
+      },
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_average_active_pace",
+        "state": "1",
+        "attributes": {
+          "unit_of_measurement": "m/s",
+          "icon": "mdi:speedometer",
+          "friendly_name": "iPhone Average Active Pace"
+        },
+        "last_changed": "2022-11-07T18:54:47.724618+00:00",
+        "last_updated": "2022-11-07T18:54:47.724618+00:00",
+        "context": {
+          "id": "01GH9Q3WXC6REDF6V7SGXMJYA9",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": 1,
+        "native_unit_of_measurement": "m/s"
+      },
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "binary_sensor.iphone_focus",
+        "state": "off",
+        "attributes": {
+          "icon": "mdi:moon-waning-crescent",
+          "friendly_name": "iPhone Focus"
+        },
+        "last_changed": "2022-11-07T18:54:47.725402+00:00",
+        "last_updated": "2022-11-07T18:54:47.725402+00:00",
+        "context": {
+          "id": "01GH9Q3WXD6R1SJ55EFK5AD45Y",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "device_tracker.iphone",
+        "state": "unknown",
+        "attributes": {
+          "source_type": "gps",
+          "friendly_name": "iPhone"
+        },
+        "last_changed": "2022-11-07T18:54:47.726137+00:00",
+        "last_updated": "2022-11-07T18:54:47.726137+00:00",
+        "context": {
+          "id": "01GH9Q3WXENEB5ZCXFVBM29157",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "button.fire_tablet_restart_browser",
+        "state": "unknown",
+        "attributes": {
+          "device_class": "restart",
+          "friendly_name": "Fire Tablet Restart browser"
+        },
+        "last_changed": "2022-11-07T18:55:15.996169+00:00",
+        "last_updated": "2022-11-07T18:55:15.996169+00:00",
+        "context": {
+          "id": "01GH9Q4RGW5234RH06EN963R3M",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "button.fire_tablet_reboot_device",
+        "state": "unknown",
+        "attributes": {
+          "device_class": "restart",
+          "friendly_name": "Fire Tablet Reboot device"
+        },
+        "last_changed": "2022-11-07T18:55:15.997169+00:00",
+        "last_updated": "2022-11-07T18:55:15.997169+00:00",
+        "context": {
+          "id": "01GH9Q4RGXTZE32AY75E91E74D",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "button.fire_tablet_bring_to_foreground",
+        "state": "unknown",
+        "attributes": {
+          "friendly_name": "Fire Tablet Bring to foreground"
+        },
+        "last_changed": "2022-11-07T18:55:15.997898+00:00",
+        "last_updated": "2022-11-07T18:55:15.997898+00:00",
+        "context": {
+          "id": "01GH9Q4RGXR2KNENXARB6A0ECA",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "button.fire_tablet_send_to_background",
+        "state": "unknown",
+        "attributes": {
+          "friendly_name": "Fire Tablet Send to background"
+        },
+        "last_changed": "2022-11-07T18:55:15.998478+00:00",
+        "last_updated": "2022-11-07T18:55:15.998478+00:00",
+        "context": {
+          "id": "01GH9Q4RGYV4GQ0HH7KRVCFY84",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "button.fire_tablet_load_start_url",
+        "state": "unknown",
+        "attributes": {
+          "friendly_name": "Fire Tablet Load start URL"
+        },
+        "last_changed": "2022-11-07T18:55:15.999450+00:00",
+        "last_updated": "2022-11-07T18:55:15.999450+00:00",
+        "context": {
+          "id": "01GH9Q4RGZC940Z8QGWSVWS38S",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "button.fritz_repeater_1200_ax_firmware_update",
+        "state": "unknown",
+        "attributes": {
+          "device_class": "update",
+          "friendly_name": "FRITZ!Repeater 1200 AX Firmware Update"
+        },
+        "last_changed": "2022-11-07T18:54:47.810117+00:00",
+        "last_updated": "2022-11-07T18:54:47.810117+00:00",
+        "context": {
+          "id": "01GH9Q3X029CM5NVEMS77ZH0D2",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "button.fritz_repeater_1200_ax_reboot",
+        "state": "unknown",
+        "attributes": {
+          "device_class": "restart",
+          "friendly_name": "FRITZ!Repeater 1200 AX Reboot"
+        },
+        "last_changed": "2022-11-07T18:54:47.810794+00:00",
+        "last_updated": "2022-11-07T18:54:47.810794+00:00",
+        "context": {
+          "id": "01GH9Q3X02XEY2FHM6TG86CX54",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "button.fritz_repeater_1200_ax_reconnect",
+        "state": "unknown",
+        "attributes": {
+          "device_class": "restart",
+          "friendly_name": "FRITZ!Repeater 1200 AX Reconnect"
+        },
+        "last_changed": "2022-11-07T18:54:47.811507+00:00",
+        "last_updated": "2022-11-07T18:54:47.811507+00:00",
+        "context": {
+          "id": "01GH9Q3X033BVDD5PMP1AP5GZT",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "button.fritz_repeater_1200_ax_cleanup",
+        "state": "2022-10-07T20:59:58.803230+00:00",
+        "attributes": {
+          "icon": "mdi:broom",
+          "friendly_name": "FRITZ!Repeater 1200 AX Cleanup"
+        },
+        "last_changed": "2022-11-07T18:54:47.812015+00:00",
+        "last_updated": "2022-11-07T18:54:47.812015+00:00",
+        "context": {
+          "id": "01GH9Q3X049PK1P96C5V3HZZDV",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.fritz_repeater_1200_ax_fritz_os",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "268.07.30",
+          "in_progress": false,
+          "latest_version": "268.07.30",
+          "release_summary": null,
+          "release_url": "",
+          "skipped_version": null,
+          "title": "FRITZ!OS",
+          "entity_picture": "https://brands.home-assistant.io/_/fritz/icon.png",
+          "friendly_name": "FRITZ!Repeater 1200 AX FRITZ!OS",
+          "supported_features": 1
+        },
+        "last_changed": "2022-11-07T18:54:48.104549+00:00",
+        "last_updated": "2022-11-07T18:54:48.104549+00:00",
+        "context": {
+          "id": "01GH9Q3X98N3FWD3S6NEQR06EV",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "button.fritz_box_7530_ax_firmware_update",
+        "state": "unknown",
+        "attributes": {
+          "device_class": "update",
+          "friendly_name": "FRITZ!Box 7530 AX Firmware Update"
+        },
+        "last_changed": "2022-11-07T18:54:48.300300+00:00",
+        "last_updated": "2022-11-07T18:54:48.300300+00:00",
+        "context": {
+          "id": "01GH9Q3XFCHAH1KT7EDY80GB6D",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "button.fritz_box_7530_ax_reboot",
+        "state": "unknown",
+        "attributes": {
+          "device_class": "restart",
+          "friendly_name": "FRITZ!Box 7530 AX Reboot"
+        },
+        "last_changed": "2022-11-07T18:54:48.300918+00:00",
+        "last_updated": "2022-11-07T18:54:48.300918+00:00",
+        "context": {
+          "id": "01GH9Q3XFC523Z9EHNRS57ZA58",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "button.fritz_box_7530_ax_reconnect",
+        "state": "unknown",
+        "attributes": {
+          "device_class": "restart",
+          "friendly_name": "FRITZ!Box 7530 AX Reconnect"
+        },
+        "last_changed": "2022-11-07T18:54:48.301464+00:00",
+        "last_updated": "2022-11-07T18:54:48.301464+00:00",
+        "context": {
+          "id": "01GH9Q3XFD550EMR1A5P17TAKT",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "button.fritz_box_7530_ax_cleanup",
+        "state": "unknown",
+        "attributes": {
+          "icon": "mdi:broom",
+          "friendly_name": "FRITZ!Box 7530 AX Cleanup"
+        },
+        "last_changed": "2022-11-07T18:54:48.301891+00:00",
+        "last_updated": "2022-11-07T18:54:48.301891+00:00",
+        "context": {
+          "id": "01GH9Q3XFDNFNBQ5S34TXPE7A9",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.fritz_box_7530_ax_fritz_os",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "256.07.31",
+          "in_progress": false,
+          "latest_version": "256.07.31",
+          "release_summary": null,
+          "release_url": "",
+          "skipped_version": null,
+          "title": "FRITZ!OS",
+          "entity_picture": "https://brands.home-assistant.io/_/fritz/icon.png",
+          "friendly_name": "FRITZ!Box 7530 AX FRITZ!OS",
+          "supported_features": 1
+        },
+        "last_changed": "2022-11-07T18:54:48.351834+00:00",
+        "last_updated": "2022-11-07T18:54:48.351834+00:00",
+        "context": {
+          "id": "01GH9Q3XGZ540XK6H22NA8ATXJ",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "button.controller_rgb_ir_fdb53b_restart",
+        "state": "unknown",
+        "attributes": {
+          "device_class": "restart",
+          "friendly_name": "Controller RGB IR FDB53B Restart"
+        },
+        "last_changed": "2022-11-07T18:55:25.309971+00:00",
+        "last_updated": "2022-11-07T18:55:25.309971+00:00",
+        "context": {
+          "id": "01GH9Q51KXV9X9KTN7AKYSM9PY",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-07T19:39:50.584505+00:00"
+    }
+  ]
+}

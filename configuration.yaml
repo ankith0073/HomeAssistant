@@ -1,0 +1,88 @@
+
+# Configure a default setup of Home Assistant (frontend, api, etc)
+default_config:
+#iOS theme config
+frontend:
+  # your configuration.
+  themes: !include_dir_merge_named themes
+
+# Text to speech
+tts:
+  - platform: google_translate
+
+automation: !include automations.yaml
+script: !include scripts.yaml
+scene: !include scenes.yaml
+
+# Example configuration.yaml entry
+bluetooth:
+
+http:
+    ssl_certificate: /ssl/fullchain.pem
+    ssl_key: /ssl/privkey.pem
+    
+wake_on_lan:
+
+samsungtv:
+  - host: !secret samsung_tv_ip
+    turn_on_action:
+      - service: wake_on_lan.send_magic_packet
+        data:
+          mac: !secret samsung_tv_mac
+          
+    
+#InfluxDB Configuration
+influxdb:
+     api_version : 1
+     host : localhost
+     username: !secret influx_user
+     password: !secret influx_pass
+     database: homeassistant
+     max_retries: 3
+     precision: s
+     
+#Waste collection schedule Böblingen Fichtestraße
+waste_collection_schedule:
+  sources:
+    - name: abfall_io
+      args:
+        key: "8215c62763967916979e0e8566b6172e"
+        f_id_kommune: 2980
+        f_id_strasse: 307
+        f_abfallarten:
+          - 50
+          - 53
+          - 31
+          
+sensor:
+  - platform: waste_collection_schedule
+    name: restmuell_waste
+    details_format: "appointment_types"
+    types:
+      - "Restmüll"
+  - platform: waste_collection_schedule
+    name: paper_waste
+    details_format: "appointment_types"
+    types:
+      - "Papier"
+  - platform: waste_collection_schedule
+    name: bio_waste
+    details_format: "appointment_types"
+    types:
+      - "Biomüll"
+
+# Example configuration.yaml entry
+telegram_bot:
+  - platform: polling
+    api_key: !secret api_key 
+    allowed_chat_ids:
+      - !secret ankith_chat_id 
+    
+      
+notify:
+  - platform: telegram
+    name: NOTIFIER_NAME
+    chat_id: !secret ankith_chat_id
+      
+    
+

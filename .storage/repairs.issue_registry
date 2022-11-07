@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "minor_version": 2,
+  "key": "repairs.issue_registry",
+  "data": {
+    "issues": [
+      {
+        "created": "2022-08-07T18:24:55.317817+00:00",
+        "dismissed_version": "2022.8.2",
+        "domain": "spotify",
+        "is_persistent": false,
+        "issue_id": "removed_yaml"
+      }
+    ]
+  }
+}
