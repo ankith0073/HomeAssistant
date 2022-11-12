@@ -25,3 +25,7 @@ music_snapshot:
 notify_ankith_sushi:
     module: notify_ankith_sushi
     class: NotifyAnkithSushi
+    
+kitchen_lights:
+    module: kitchen_light
+    class: KitchenLight
