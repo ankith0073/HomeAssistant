@@ -6,20 +6,33 @@ class BedroomLight(hass.Hass):
     def initialize(self):
         self.my_enitity = self.get_entity("binary_sensor.bedroom_motion_sensor")
         self.sun_entity = self.get_entity("sun.sun")
-        self.my_enitity.listen_state(self.bedroom_light_on, new = "on")
+        self.my_enitity.listen_state(self.bedroom_motion_light_on, new = "on")
         self.my_enitity.listen_state(self.bedroom_light_off, new = "off")
         
-    def bedroom_light_on(self,  entity, attribute, old, new, kwargs):
+        runtime = datetime.time(23, 00, 00)
+        handle = self.run_daily(self.night_lamp_on, runtime)
+        
+        runtime = datetime.time(7, 00, 00)
+        handle = self.run_daily(self.bedroom_light_off, runtime)
+        
+    def bedroom_motion_light_on(self,  entity, attribute, old, new, kwargs):
         if self.trigger_event():
-            self.my_enitity = self.get_entity("light.bedroom_lamp")
-            self.my_enitity.call_service("turn_on", brightness = 40)
-            str = f"Turning on bedroom lights"
-            self.log(str, ascii_encode=False)
+            self.turn_on(in_brightness = 40)
         
     def bedroom_light_off(self,  entity, attribute, old, new, kwargs):
         self.my_enitity = self.get_entity("light.bedroom_lamp")
         self.my_enitity.call_service("turn_off")
         str = f"Turning off bedroom lights"
+        self.log(str, ascii_encode=False)
+        
+    def night_lamp_on(self):
+        self.log("Turning night lamp on", ascii_encode=False)
+        self.turn_on()
+        
+    def turn_on(self, in_brightness = 3):
+        self.my_enitity = self.get_entity("light.bedroom_lamp")
+        self.my_enitity.call_service("turn_on", brightness = in_brightness)
+        str = f"Turning on bedroom lights"
         self.log(str, ascii_encode=False)
         
     def trigger_event(self):

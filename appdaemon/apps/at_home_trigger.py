@@ -15,7 +15,7 @@ class AtHomeTrigger(hass.Hass):
         #State change flag for logging purposes
         self._state_change = False
         
-        self.my_enitity = self.get_entity("device_tracker.iphone_barney_2")
+        self.my_enitity = self.get_entity("device_tracker.iphone_barney_4")
         self.sushi_enitity = self.get_entity("device_tracker.sushi_iphone")
         
         self.my_enitity.listen_state(self.ankith_at_home, new = "home")

@@ -31,9 +31,8 @@ class Music(hass.Hass):
         runtime = datetime.time(23, 00, 0)
         self.run_daily(self.StopMusic, runtime)
         
-        #self.run_in(self.TurnOnEveningMusiccb, 5)
-        #self.run_in(self.StopMusic, 10)
-        #self.run_in(self.TurnOnEveningMusiccb, 15)
+        tv_name = "media_player.sonos_living_room"
+        self.tv_enitity = self.get_entity(tv_name)
         
         #=====Weekend Music========================#
         runtime = datetime.time(8, 00, 00)
@@ -42,18 +41,18 @@ class Music(hass.Hass):
     def TurnOnEveningMusiccb(self, kwargs):
         listUrl = self.getplaylist()
         self.log("Current chosen playlist %s", listUrl)
-        if at_home_event.wait():
+        if self.trigger_event():
             self.PlayMusic(listUrl)
     
     def TurnOnEveningLightcb(self, kwargs):
         listUrl = playlist_jazz_vibes
-        if at_home_event.wait():
+        if self.trigger_event():
             self.PlayMusic(listUrl)
             
     def WeekendMusicOn(self, kwargs):
         listUrl = self.getplaylist()
         self.log("Current chosen playlist %s", listUrl)
-        if at_home_event.wait():
+        if self.trigger_event():
             if datetime.datetime.today().weekday() in [saturday,sunday]:
               self.PlayMusic(listUrl)
         
@@ -74,6 +73,13 @@ class Music(hass.Hass):
         self.my_enitity.call_service("media_stop")
         str = f"Stopped Sonos"
         self.log(str, ascii_encode=False)
+        
+    def trigger_event(self):
+        #Trigger music events only when TV is off
+        if at_home_event.wait() and self.tv_enitity.getstate() == "off":
+            return True
+        else:
+            return False
         
     def getplaylist(self):
         self.log("Getting playlist based on weather: %s", self.get_state("weather.barney_home_automation"))
