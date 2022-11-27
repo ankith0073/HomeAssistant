@@ -31,7 +31,7 @@ class Music(hass.Hass):
         runtime = datetime.time(23, 00, 0)
         self.run_daily(self.StopMusic, runtime)
         
-        tv_name = "media_player.sonos_living_room"
+        tv_name = "media_player.samsung_7_series_55"
         self.tv_enitity = self.get_entity(tv_name)
         
         #=====Weekend Music========================#

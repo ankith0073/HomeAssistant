@@ -29,7 +29,7 @@ class MusicSnapshot(hass.Hass):
         
     def log_state_change(self, entity_name = ""):
         time.sleep(1)
-        # = f"Entity {entity_name} state change to {self.get_entity(entity_name).get_state()}"
-        #self.log(str, ascii_encode=False)
+        str = f"Entity {entity_name} state change to {self.get_entity(entity_name).get_state()}"
+        self.log(str, ascii_encode=False)
         
             

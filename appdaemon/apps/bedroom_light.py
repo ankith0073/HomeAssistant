@@ -9,10 +9,10 @@ class BedroomLight(hass.Hass):
         self.my_enitity.listen_state(self.bedroom_motion_light_on, new = "on")
         self.my_enitity.listen_state(self.bedroom_light_off, new = "off")
         
-        runtime_on = datetime.time(23, 00, 00)
+        runtime_on = datetime.time(22, 30, 00)
         handle = self.run_daily(self.night_lamp_on, runtime_on)
         
-        runtime_off = datetime.time(7, 00, 00)
+        runtime_off = datetime.time(05, 00, 00)
         handle = self.run_daily(self.night_lamp_off, runtime_off)
         
     def bedroom_motion_light_on(self,  entity, attribute, old, new, kwargs):
@@ -23,11 +23,11 @@ class BedroomLight(hass.Hass):
         if self.trigger_event():
             self.turn_off()
         
-    def night_lamp_on(self):
+    def night_lamp_on(self, kwargs):
         self.log("Turning night lamp on", ascii_encode=False)
         self.turn_on()
         
-    def night_lamp_off(self):
+    def night_lamp_off(self, kwargs):
         self.log("Turning night lamp off", ascii_encode=False)
         self.turn_off()
         
